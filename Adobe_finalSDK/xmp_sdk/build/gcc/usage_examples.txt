@@ -1,0 +1,29 @@
+# Copyright 2008 Adobe Systems Incorporated
+# All Rights Reserved.
+#
+# NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the terms
+# of the Adobe license agreement accompanying it.
+
+change to the directory of this file
+	<SDKROOT>/build/gcc4
+before executing the following statements:
+
+32 bit -----------------------------------------------------------------------------
+
+build entire toolkit, 32 bit, debug.
+	make -f XMPToolkit.mak os=i80386linux stage=debug arch=x86 libpath=/usr/lib/gcc/i386-redhat-linux/4.1.2 build
+	- use clean or rebuild target respectively.
+	- this libpath is correct for Redhat 5, 32 bit. adjust for your distro/version...
+
+just re-build XMPCore, 32 bit:
+	make -f XMPCore.mak os=i80386linux stage=release arch=x86 libpath=/usr/lib/gcc/i386-redhat-linux/4.1.2 rebuild
+
+64 bit -----------------------------------------------------------------------------
+
+build entire toolkit, 64 bit (arch=x64), release:	
+		
+	make -f XMPToolkit.mak os=i80386linux stage=release arch=x64 libpath=/usr/lib/gcc/i386-redhat-linux/4.1.2 build
+
+	- use clean or rebuild target respectively.
+	- again: this libpath is correct for Redhat 5, 64 bit. adjust for your distro/version.
+

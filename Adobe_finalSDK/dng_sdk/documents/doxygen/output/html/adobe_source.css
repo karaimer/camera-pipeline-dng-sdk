@@ -1,0 +1,100 @@
+html, body, table, td, th, h1, h2, h3, h4, h5, h6, p, a, span, div, em, b, i { font-family: Verdana, Arial, Helvetica, Geneva, sans-serif }
+
+html, body, table, td, th, p, pre, span, div, dl, dt, dd, code, em, b, i { font-size: small }
+
+.bgImg { background: #f1f1f1 url("/grad_grey.jpg") 0 0 no-repeat }
+
+img { border: 0 }
+
+.directory { font-size: x-small; font-weight: normal }
+.directory a { font-size: x-small }
+.directory h3 { margin: 0px; margin-top: 3px; font-size: x-small }
+.directory p { margin: 0px; white-space: nowrap; font-size: x-small; font-weight: normal }
+.directory div { display: none; margin: 0px; font-size: x-small }
+.directory img { vertical-align: middle; font-size: x-small }
+.fragment { font-family: Monaco, "Courier New", Courier, monospace }
+.large { font-size: large }
+.mdescLeft { font-size: smaller; background-color: #FAFAFA; padding-left: 8px; border-top: 1px none #E0E0E0; border-right: 1 px none #E0E0E0; border-bottom: 1 px none #E0E0E0; border-left: 1 px none #E0E0E0; margin: 0px }
+.mdescRight { font-size: smaller; font-style: italic; background-color: #FAFAFA; padding-left: 4px; border-top: 1px none #E0E0E0; border-right: 1 px none #E0E0E0; border-bottom: 1 px none #E0E0E0; border-left: 1 px none #E0E0E0; margin: 0px; padding-bottom: 0px; padding-right: 8px }
+.mdRow { padding: 8px 10px }
+.mdTable { border: 1px solid #868686; background-color: #F4F4FB }
+.medium { font-size: medium }
+.memItemLeft { font-family: Monaco, "Courier New", Courier, monospace; width: 50%; padding: 1px 0px 0px 8px; margin: 4px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-top-color: #E0E0E0; border-right-color: #E0E0E0; border-bottom-color: #E0E0E0; border-left-color: #E0E0E0; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: #fafafa }
+.memItemRight { font-family: Monaco, "Courier New", Courier, monospace; width: 50%; padding: 1px 0px 0px 8px; margin: 4px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-top-color: #E0E0E0; border-right-color: #E0E0E0; border-bottom-color: #E0E0E0; border-left-color: #E0E0E0; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: #fafafa }
+.memTemplItemLeft { font-family: Monaco, "Courier New", Courier, monospace; padding: 1px 0px 0px 8px; margin: 4px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-color: #E0E0E0; border-right-color: #E0E0E0; border-bottom-color: #E0E0E0; border-left-color: #E0E0E0; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: #FAFAFA }
+.memTemplItemRight { font-family: Monaco, "Courier New", Courier, monospace; padding: 1px 8px 0px 8px; margin: 4px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-color: #E0E0E0; border-right-color: #E0E0E0; border-bottom-color: #E0E0E0; border-left-color: #E0E0E0; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; background-color: #FAFAFA }
+.memTemplParams { font-family: Monaco, "Courier New", Courier, monospace; padding: 1px 0px 0px 8px; margin: 4px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-color: #E0E0E0; border-right-color: #E0E0E0; border-bottom-color: #E0E0E0; border-left-color: #E0E0E0; border-top-style: solid; border-right-style: none; border-bottom-style: none; border-left-style: none; color: #606060; background-color: #FAFAFA }
+.memItemLeft a { font-family: Monaco, "Courier New", Courier, monospace }
+.memItemRight a { font-family: Monaco, "Courier New", Courier, monospace }
+.memTemplItemLeft a { font-family: Monaco, "Courier New", Courier, monospace }
+.memTemplItemRight a { font-family: Monaco, "Courier New", Courier, monospace }
+.memTemplParams a { font-family: Monaco, "Courier New", Courier, monospace }
+.mitemLeft {  }
+.mitemRight {  }
+.search { color: #003399; font-weight: bold }
+.small { font-size: small }
+.strikeout { text-decoration: line-through }
+.highlight { background-color: yellow }
+.teeny { font-size: x-small }
+A, A:link, A:visited { text-decoration: none; color: red }
+A:link:hover, A:hover, A:visited:hover { text-decoration: underline; color: maroon }
+A.anchor { text-decoration: none; color: black; font-weight: bold }
+A.code, A.code:link, A.code:visited { font-family: Monaco, "Courier New", Courier, monospace; text-decoration: underline; font-weight: normal; color: #1A419D }
+A.codeRef, A.codeRef:link, A.codeRef:visited { font-family: Monaco, "Courier New", Courier, monospace; font-weight: normal; color: #1A419D }
+A.el, A.el:visited { text-decoration: none; font-weight: normal; color: red }
+A.el:hover, A.el:visited:hover { text-decoration: underline; color: maroon }
+A.elRef { font-weight: normal }
+A.qindex, A.qindex:visited { text-decoration: none; font-weight: normal; color: red; padding: 2px }
+A.qindex:hover, A.qindex:visited:hover { text-decoration: underline; background-color: transparent; padding: 2px; color: maroon }
+A.qindexHL, A.qindexHL:visited { text-decoration: none; font-weight: normal; background-color: transparent; color: black; padding: 2 6px }
+A.qindexHL:hover, A.qindexHL:visited:hover { text-decoration: underline; background-color: transparent; color: black; padding: 2px 6px }
+A.red, A.red:visited { text-decoration: underline; background-color: transparent; color: red }
+A.red:hover, A.red:visited:hover { text-decoration: underline; background-color: transparent; color: maroon }
+A.white, A.white:visited { text-decoration: underline; background-color: transparent; color: white }
+A.white:hover, A.white:visited:hover { text-decoration: underline; background-color: transparent; color: red }
+BODY { background: white; color: black; margin: 0; padding: 0 }
+CAPTION { font-weight: normal }
+CODE { font-family: Monaco, "Courier New", Courier, monospace; font-size: small }
+CODE A { font-family: Monaco, "Courier New", Courier, monospace }
+DD CODE { font-family: Monaco, "Courier New", Courier, monospace }
+DT B EM { margin-left: 5px }
+DIV.ah { background-color: #000000; font-weight: bold; color: #ffffff; margin-bottom: 3px; margin-top: 3px }
+DIV.fragment { font-family: Monaco, "Courier New", Courier, monospace }
+DIV.groupHeader { margin-left: 16px; margin-top: 12px; margin-bottom: 6px; font-weight: bold }
+DIV.groupText { margin-left: 16px; font-style: italic }
+DIV.nav { width: 100%; background-color: transparent; text-align: center; margin: 2px; padding: 2px; line-height: 140% }
+DIV.qindex { width: 100%; background-color: transparent; text-align: center; margin-bottom: 2px; padding: 2px }
+DL.el { margin-left: -1cm }
+FORM.search { margin-bottom: 0px; margin-top: 0px }
+H1 { color: black; font-size: x-large; text-align: center }
+H2 A.anchor { color: black; font-size: large; padding-left: 4px; border-top: 1px dashed grey; border-left: 1px dashed grey }
+H3 A.anchor { color: black; font-size: medium; font-variant: small-caps }
+H4 { color: black; font-style: oblique }
+H3.navbar { border-bottom: 1px dashed grey }
+HR { border: 0; color: red; background-color: red; height: 2px; margin-right: 0px; margin-left: 0px; margin-top: 10px; margin-bottom: 10px }
+IMG.formulaDsp {  }
+IMG.formulaInl { vertical-align: middle }
+INPUT.search { font-size: medium; color: #000080; font-weight: normal; background-color: #eeeeff }
+ol, ul, li, p ol, p ul, p li { margin: 5px 0 0 10px }
+P.formulaDsp { text-align: center }
+PRE.fragment { font-family: Monaco, "Courier New", Courier, monospace; font-size: 100%; border: 1px solid #CCCCCC; background-color: #f5f5f5; margin-top: 4px; margin-bottom: 4px; margin-left: 2px; margin-right: 8px; padding-left: 6px; padding-right: 6px; padding-top: 4px; padding-bottom: 4px; }
+SPAN.charliteral { font-family: Monaco, "Courier New", Courier, monospace; font-size: 100%; color: #222222 }
+SPAN.comment { font-family: Monaco, "Courier New", Courier, monospace; font-size: 100%; color: #dd0000 }
+SPAN.keyword { font-family: Monaco, "Courier New", Courier, monospace; font-size: 100%; color: #0000dd }
+SPAN.keywordflow { font-family: Monaco, "Courier New", Courier, monospace; font-size: 100%; color: #0000dd }
+SPAN.keywordtype { font-family: Monaco, "Courier New", Courier, monospace; font-size: 100%; color: #0000dd }
+SPAN.preprocessor { font-family: Monaco, "Courier New", Courier, monospace; font-size: 100%; color: #0000dd }
+SPAN.stringliteral { font-family: Monaco, "Courier New", Courier, monospace; font-size: 100%; color: #222222 }
+TD.col_label { background-color: white; font-weight: bold; text-align: center; padding-bottom: 2px; border-style: solid; border-bottom-width: 1px; border-bottom-color: red }
+TD.indexkey { background-color: #eeeeff; font-weight: bold; padding-right: 10px; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; margin-left: 0px; margin-right: 0px; margin-top: 2px; margin-bottom: 2px; border: 1px solid #CCCCCC }
+TD.indexvalue { background-color: #eeeeff; font-style: italic; padding-right: 10px; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; margin-left: 0px; margin-right: 0px; margin-top: 2px; margin-bottom: 2px; border: 1px solid #CCCCCC }
+TD.mdPrefix { font-family: Monaco, "Courier New", Courier, monospace; background-color: transparent; white-space: normal; color: #606060 }
+TD.md { font-family: Monaco, "Courier New", Courier, monospace; background-color: transparent; white-space: normal }
+TD.mdname { font-family: Monaco, "Courier New", Courier, monospace; background-color: transparent; color: maroon; white-space: normal }
+TD.mdname1 { font-family: Monaco, "Courier New", Courier, monospace; background-color: transparent; color: maroon; white-space: normal }
+TD.md a { font-family: Monaco, "Courier New", Courier, monospace; background-color: transparent; white-space: normal }
+TD.mdname a { font-family: Monaco, "Courier New", Courier, monospace; background-color: transparent; white-space: normal }
+TD.mdname1 a { font-family: Monaco, "Courier New", Courier, monospace; background-color: transparent; white-space: normal }
+TD.row_item { background-color: white; font-weight: normal; text-align: left; vertical-align: top; font-size: medium; padding-right: 10px; padding-top: 2px; padding-left: 10px; padding-bottom: 2px; }
+TD.tiny { font-size: small }
+TR.memlist { background-color: #f0f0f0 }

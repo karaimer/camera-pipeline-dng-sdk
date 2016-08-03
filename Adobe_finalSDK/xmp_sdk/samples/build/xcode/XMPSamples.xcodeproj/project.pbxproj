@@ -1,0 +1,1332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018881FF0B7C93A300EECA52 /* XMPFilesCoverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018881EE0B7C934100EECA52 /* XMPFilesCoverage.cpp */; };
+		018882000B7C93A300EECA52 /* XMPFilesCoverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018881EE0B7C934100EECA52 /* XMPFilesCoverage.cpp */; };
+		018882040B7C93AB00EECA52 /* XMPScanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC97291309A3E9BF005A68DF /* XMPScanner.cpp */; };
+		0188820D0B7C93AF00EECA52 /* XMPScanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC97291309A3E9BF005A68DF /* XMPScanner.cpp */; };
+		018882130B7C93EE00EECA52 /* DumpMainXMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018881ED0B7C934100EECA52 /* DumpMainXMP.cpp */; };
+		018882140B7C93EF00EECA52 /* DumpMainXMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018881ED0B7C934100EECA52 /* DumpMainXMP.cpp */; };
+		01C2AFDB0E3A023B003F4586 /* CustomSchema.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2AFDA0E3A023B003F4586 /* CustomSchema.cpp */; };
+		01C2AFDC0E3A023B003F4586 /* CustomSchema.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2AFDA0E3A023B003F4586 /* CustomSchema.cpp */; };
+		01C2AFF30E3A0398003F4586 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2AFF20E3A0398003F4586 /* main.cpp */; };
+		01C2AFF40E3A0398003F4586 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2AFF20E3A0398003F4586 /* main.cpp */; };
+		01C2B0300E3A04F9003F4586 /* DumpFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0220E3A04F9003F4586 /* DumpFile.cpp */; };
+		01C2B0320E3A04F9003F4586 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0260E3A04F9003F4586 /* Log.cpp */; };
+		01C2B0360E3A04F9003F4586 /* TagTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B02E0E3A04F9003F4586 /* TagTree.cpp */; };
+		01C2B0380E3A04F9003F4586 /* DumpFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0220E3A04F9003F4586 /* DumpFile.cpp */; };
+		01C2B03A0E3A04F9003F4586 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0260E3A04F9003F4586 /* Log.cpp */; };
+		01C2B03E0E3A04F9003F4586 /* TagTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B02E0E3A04F9003F4586 /* TagTree.cpp */; };
+		01C2B0410E3A0591003F4586 /* LargeFileAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B03F0E3A0523003F4586 /* LargeFileAccess.cpp */; };
+		01C2B0420E3A0591003F4586 /* LargeFileAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B03F0E3A0523003F4586 /* LargeFileAccess.cpp */; };
+		01C2B0780E3A076E003F4586 /* ReadingXMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0770E3A076E003F4586 /* ReadingXMP.cpp */; };
+		01C2B0790E3A076E003F4586 /* ReadingXMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0770E3A076E003F4586 /* ReadingXMP.cpp */; };
+		01C2B0960E3A07F5003F4586 /* ModifyingXMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0740E3A0765003F4586 /* ModifyingXMP.cpp */; };
+		01C2B0970E3A07F6003F4586 /* ModifyingXMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0740E3A0765003F4586 /* ModifyingXMP.cpp */; };
+		01C2B09A0E3A0805003F4586 /* XmpIterations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0980E3A0805003F4586 /* XmpIterations.cpp */; };
+		01C2B0B20E3A08A3003F4586 /* XmpIterations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0980E3A0805003F4586 /* XmpIterations.cpp */; };
+		01C2B0B90E3A08B3003F4586 /* Actions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0B50E3A08B3003F4586 /* Actions.cpp */; };
+		01C2B0BB0E3A08B3003F4586 /* PrintUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0B80E3A08B3003F4586 /* PrintUsage.cpp */; };
+		01C2B0BC0E3A08B3003F4586 /* Actions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0B50E3A08B3003F4586 /* Actions.cpp */; };
+		01C2B0BE0E3A08B3003F4586 /* PrintUsage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0B80E3A08B3003F4586 /* PrintUsage.cpp */; };
+		01C2B0C00E3A08DB003F4586 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0260E3A04F9003F4586 /* Log.cpp */; };
+		01C2B0C10E3A08DC003F4586 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B0260E3A04F9003F4586 /* Log.cpp */; };
+		01C2B0C20E3A08E8003F4586 /* LargeFileAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B03F0E3A0523003F4586 /* LargeFileAccess.cpp */; };
+		01C2B0C30E3A08E9003F4586 /* LargeFileAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C2B03F0E3A0523003F4586 /* LargeFileAccess.cpp */; };
+		05CD44D511108FEE00E291E1 /* XMPScanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC97291309A3E9BF005A68DF /* XMPScanner.cpp */; };
+		05CD44D611108FFD00E291E1 /* XMPScanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC97291309A3E9BF005A68DF /* XMPScanner.cpp */; };
+		05CD44DE111090AE00E291E1 /* XMPCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05CD44DD111090AE00E291E1 /* XMPCommand.cpp */; };
+		05CD44DF111090AE00E291E1 /* XMPCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05CD44DD111090AE00E291E1 /* XMPCommand.cpp */; };
+		DC97291109A3E9B7005A68DF /* DumpScannedXMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC97291009A3E9B7005A68DF /* DumpScannedXMP.cpp */; };
+		DC97291209A3E9B7005A68DF /* DumpScannedXMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC97291009A3E9B7005A68DF /* DumpScannedXMP.cpp */; };
+		DC97291409A3E9BF005A68DF /* XMPScanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC97291309A3E9BF005A68DF /* XMPScanner.cpp */; };
+		DC97291509A3E9BF005A68DF /* XMPScanner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC97291309A3E9BF005A68DF /* XMPScanner.cpp */; };
+		DCE615430951C75C001247EE /* XMPCoreCoverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCF3A64D087F1D9000FEB713 /* XMPCoreCoverage.cpp */; };
+		DCED0E5D089E7E6E009B80AF /* XMPCoreCoverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCF3A64D087F1D9000FEB713 /* XMPCoreCoverage.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		018881ED0B7C934100EECA52 /* DumpMainXMP.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = DumpMainXMP.cpp; sourceTree = "<group>"; };
+		018881EE0B7C934100EECA52 /* XMPFilesCoverage.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = XMPFilesCoverage.cpp; sourceTree = "<group>"; };
+		018881F50B7C935100EECA52 /* XMPFilesCoverage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XMPFilesCoverage; sourceTree = BUILT_PRODUCTS_DIR; };
+		018881FD0B7C936A00EECA52 /* XMPFilesCoverage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XMPFilesCoverage; sourceTree = BUILT_PRODUCTS_DIR; };
+		018882080B7C93AB00EECA52 /* DumpMainXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DumpMainXMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		018882110B7C93AF00EECA52 /* DumpMainXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DumpMainXMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2AFD00E3A01F6003F4586 /* CustomSchema */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CustomSchema; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2AFD80E3A01F9003F4586 /* CustomSchema */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CustomSchema; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2AFDA0E3A023B003F4586 /* CustomSchema.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomSchema.cpp; sourceTree = "<group>"; };
+		01C2AFE80E3A035E003F4586 /* dumpfile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dumpfile; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2AFF00E3A0364003F4586 /* dumpfile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dumpfile; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2AFF20E3A0398003F4586 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = dumpfile/main.cpp; sourceTree = "<group>"; };
+		01C2B01E0E3A04F9003F4586 /* TagTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagTree.h; sourceTree = "<group>"; };
+		01C2B01F0E3A04F9003F4586 /* globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		01C2B0220E3A04F9003F4586 /* DumpFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DumpFile.cpp; sourceTree = "<group>"; };
+		01C2B0230E3A04F9003F4586 /* DumpFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DumpFile.h; sourceTree = "<group>"; };
+		01C2B0260E3A04F9003F4586 /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		01C2B0270E3A04F9003F4586 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		01C2B02E0E3A04F9003F4586 /* TagTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TagTree.cpp; sourceTree = "<group>"; };
+		01C2B03F0E3A0523003F4586 /* LargeFileAccess.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; path = LargeFileAccess.cpp; sourceTree = "<group>"; };
+		01C2B0400E3A0523003F4586 /* LargeFileAccess.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; path = LargeFileAccess.hpp; sourceTree = "<group>"; };
+		01C2B0590E3A069A003F4586 /* ReadingXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReadingXMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2B0610E3A069A003F4586 /* ReadingXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReadingXMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2B0690E3A06C4003F4586 /* ModifyingXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ModifyingXMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2B0710E3A06C4003F4586 /* ModifyingXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ModifyingXMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2B0740E3A0765003F4586 /* ModifyingXMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModifyingXMP.cpp; sourceTree = "<group>"; };
+		01C2B0770E3A076E003F4586 /* ReadingXMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReadingXMP.cpp; sourceTree = "<group>"; };
+		01C2B08C0E3A07A7003F4586 /* XMPIterations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XMPIterations; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2B0940E3A07A7003F4586 /* XMPIterations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XMPIterations; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2B0980E3A0805003F4586 /* XmpIterations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XmpIterations.cpp; sourceTree = "<group>"; };
+		01C2B0A80E3A084F003F4586 /* xmpcommand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xmpcommand; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2B0B00E3A084F003F4586 /* xmpcommand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xmpcommand; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C2B0B40E3A08B3003F4586 /* PrintUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrintUsage.h; path = xmpcommand/PrintUsage.h; sourceTree = "<group>"; };
+		01C2B0B50E3A08B3003F4586 /* Actions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Actions.cpp; path = xmpcommand/Actions.cpp; sourceTree = "<group>"; };
+		01C2B0B60E3A08B3003F4586 /* Actions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Actions.h; path = xmpcommand/Actions.h; sourceTree = "<group>"; };
+		01C2B0B80E3A08B3003F4586 /* PrintUsage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrintUsage.cpp; path = xmpcommand/PrintUsage.cpp; sourceTree = "<group>"; };
+		05CD44DD111090AE00E291E1 /* XMPCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMPCommand.cpp; path = xmpcommand/XMPCommand.cpp; sourceTree = "<group>"; };
+		DC97290309A3E964005A68DF /* DumpScannedXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DumpScannedXMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC97290B09A3E969005A68DF /* DumpScannedXMP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DumpScannedXMP; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC97291009A3E9B7005A68DF /* DumpScannedXMP.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = DumpScannedXMP.cpp; sourceTree = "<group>"; };
+		DC97291309A3E9BF005A68DF /* XMPScanner.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = XMPScanner.cpp; sourceTree = "<group>"; };
+		DCE400B00951CF710040D71F /* XMPSamples-Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = "XMPSamples-Common.xcconfig"; sourceTree = "<group>"; };
+		DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = "XMPSamples-Debug.xcconfig"; sourceTree = "<group>"; };
+		DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = "XMPSamples-Release.xcconfig"; sourceTree = "<group>"; };
+		DCE615470951C75C001247EE /* XMPCoreCoverage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XMPCoreCoverage; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCED0E65089E7E6E009B80AF /* XMPCoreCoverage */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XMPCoreCoverage; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF3A64D087F1D9000FEB713 /* XMPCoreCoverage.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = XMPCoreCoverage.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		018881F20B7C935100EECA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018881FA0B7C936A00EECA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018882050B7C93AB00EECA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0188820E0B7C93AF00EECA52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2AFCD0E3A01F6003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2AFD50E3A01F9003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2AFE50E3A035E003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2AFED0E3A0364003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0560E3A069A003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B05E0E3A069A003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0660E3A06C4003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B06E0E3A06C4003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0890E3A07A7003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0910E3A07A7003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0A50E3A084F003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0AD0E3A084F003F4586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC97290009A3E964005A68DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC97290809A3E969005A68DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE615440951C75C001247EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED0E5E089E7E6E009B80AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C2AFB40E39EAD6003F4586 /* XMPIterations */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B0980E3A0805003F4586 /* XmpIterations.cpp */,
+			);
+			name = XMPIterations;
+			sourceTree = "<group>";
+		};
+		01C2AFB50E39EAD8003F4586 /* XMPFilesCoverage */ = {
+			isa = PBXGroup;
+			children = (
+				018881EE0B7C934100EECA52 /* XMPFilesCoverage.cpp */,
+			);
+			name = XMPFilesCoverage;
+			sourceTree = "<group>";
+		};
+		01C2AFB60E39EADB003F4586 /* XMPCoreCoverage */ = {
+			isa = PBXGroup;
+			children = (
+				DCF3A64D087F1D9000FEB713 /* XMPCoreCoverage.cpp */,
+			);
+			name = XMPCoreCoverage;
+			sourceTree = "<group>";
+		};
+		01C2AFB70E39EADD003F4586 /* XMPCommand */ = {
+			isa = PBXGroup;
+			children = (
+				05CD44DD111090AE00E291E1 /* XMPCommand.cpp */,
+				01C2B0B40E3A08B3003F4586 /* PrintUsage.h */,
+				01C2B0B50E3A08B3003F4586 /* Actions.cpp */,
+				01C2B0B60E3A08B3003F4586 /* Actions.h */,
+				01C2B0B80E3A08B3003F4586 /* PrintUsage.cpp */,
+			);
+			name = XMPCommand;
+			sourceTree = "<group>";
+		};
+		01C2AFB80E39EAF3003F4586 /* ReadingXMP */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B0770E3A076E003F4586 /* ReadingXMP.cpp */,
+			);
+			name = ReadingXMP;
+			sourceTree = "<group>";
+		};
+		01C2AFB90E39EAF5003F4586 /* ModifyingXMP */ = {
+			isa = PBXGroup;
+			children = (
+				01C2B0740E3A0765003F4586 /* ModifyingXMP.cpp */,
+			);
+			name = ModifyingXMP;
+			sourceTree = "<group>";
+		};
+		01C2AFBA0E39EAFA003F4586 /* DumpScannedXMP */ = {
+			isa = PBXGroup;
+			children = (
+				DC97291009A3E9B7005A68DF /* DumpScannedXMP.cpp */,
+			);
+			name = DumpScannedXMP;
+			sourceTree = "<group>";
+		};
+		01C2AFBB0E39EAFD003F4586 /* DumpMainXMP */ = {
+			isa = PBXGroup;
+			children = (
+				018881ED0B7C934100EECA52 /* DumpMainXMP.cpp */,
+			);
+			name = DumpMainXMP;
+			sourceTree = "<group>";
+		};
+		01C2AFBC0E39EAFF003F4586 /* DumpFile */ = {
+			isa = PBXGroup;
+			children = (
+				01C2AFF20E3A0398003F4586 /* main.cpp */,
+			);
+			name = DumpFile;
+			sourceTree = "<group>";
+		};
+		01C2AFBD0E39EB01003F4586 /* CustomSchema */ = {
+			isa = PBXGroup;
+			children = (
+				01C2AFDA0E3A023B003F4586 /* CustomSchema.cpp */,
+			);
+			name = CustomSchema;
+			sourceTree = "<group>";
+		};
+		01C2AFF60E3A03F3003F4586 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				DC97291309A3E9BF005A68DF /* XMPScanner.cpp */,
+				01C2B03F0E3A0523003F4586 /* LargeFileAccess.cpp */,
+				01C2B0400E3A0523003F4586 /* LargeFileAccess.hpp */,
+				01C2B01E0E3A04F9003F4586 /* TagTree.h */,
+				01C2B01F0E3A04F9003F4586 /* globals.h */,
+				01C2B0220E3A04F9003F4586 /* DumpFile.cpp */,
+				01C2B0230E3A04F9003F4586 /* DumpFile.h */,
+				01C2B0260E3A04F9003F4586 /* Log.cpp */,
+				01C2B0270E3A04F9003F4586 /* Log.h */,
+				01C2B02E0E3A04F9003F4586 /* TagTree.cpp */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* XMPCoverage */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				DCE4006D0951CC850040D71F /* Build Extras */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = XMPCoverage;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01C2AFF60E3A03F3003F4586 /* common */,
+				01C2AFBD0E39EB01003F4586 /* CustomSchema */,
+				01C2AFBC0E39EAFF003F4586 /* DumpFile */,
+				01C2AFBB0E39EAFD003F4586 /* DumpMainXMP */,
+				01C2AFBA0E39EAFA003F4586 /* DumpScannedXMP */,
+				01C2AFB90E39EAF5003F4586 /* ModifyingXMP */,
+				01C2AFB80E39EAF3003F4586 /* ReadingXMP */,
+				01C2AFB70E39EADD003F4586 /* XMPCommand */,
+				01C2AFB60E39EADB003F4586 /* XMPCoreCoverage */,
+				01C2AFB50E39EAD8003F4586 /* XMPFilesCoverage */,
+				01C2AFB40E39EAD6003F4586 /* XMPIterations */,
+			);
+			name = Source;
+			path = ../../source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCED0E65089E7E6E009B80AF /* XMPCoreCoverage */,
+				DCE615470951C75C001247EE /* XMPCoreCoverage */,
+				DC97290309A3E964005A68DF /* DumpScannedXMP */,
+				DC97290B09A3E969005A68DF /* DumpScannedXMP */,
+				018881F50B7C935100EECA52 /* XMPFilesCoverage */,
+				018881FD0B7C936A00EECA52 /* XMPFilesCoverage */,
+				018882080B7C93AB00EECA52 /* DumpMainXMP */,
+				018882110B7C93AF00EECA52 /* DumpMainXMP */,
+				01C2AFD00E3A01F6003F4586 /* CustomSchema */,
+				01C2AFD80E3A01F9003F4586 /* CustomSchema */,
+				01C2AFE80E3A035E003F4586 /* dumpfile */,
+				01C2AFF00E3A0364003F4586 /* dumpfile */,
+				01C2B0590E3A069A003F4586 /* ReadingXMP */,
+				01C2B0610E3A069A003F4586 /* ReadingXMP */,
+				01C2B0690E3A06C4003F4586 /* ModifyingXMP */,
+				01C2B0710E3A06C4003F4586 /* ModifyingXMP */,
+				01C2B08C0E3A07A7003F4586 /* XMPIterations */,
+				01C2B0940E3A07A7003F4586 /* XMPIterations */,
+				01C2B0A80E3A084F003F4586 /* xmpcommand */,
+				01C2B0B00E3A084F003F4586 /* xmpcommand */,
+			);
+			name = Products;
+			path = ../..;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DCE4006D0951CC850040D71F /* Build Extras */ = {
+			isa = PBXGroup;
+			children = (
+				DCE400B00951CF710040D71F /* XMPSamples-Common.xcconfig */,
+				DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */,
+				DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */,
+			);
+			name = "Build Extras";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		018881EF0B7C935100EECA52 /* XMPFilesCoverage Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018881F30B7C935100EECA52 /* Build configuration list for PBXNativeTarget "XMPFilesCoverage Debug" */;
+			buildPhases = (
+				018881F00B7C935100EECA52 /* Sources */,
+				018881F20B7C935100EECA52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPFilesCoverage Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 018881F50B7C935100EECA52 /* XMPFilesCoverage */;
+			productType = "com.apple.product-type.tool";
+		};
+		018881F70B7C936A00EECA52 /* XMPFilesCoverage Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018881FB0B7C936A00EECA52 /* Build configuration list for PBXNativeTarget "XMPFilesCoverage Release" */;
+			buildPhases = (
+				018881F80B7C936A00EECA52 /* Sources */,
+				018881FA0B7C936A00EECA52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPFilesCoverage Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 018881FD0B7C936A00EECA52 /* XMPFilesCoverage */;
+			productType = "com.apple.product-type.tool";
+		};
+		018882010B7C93AB00EECA52 /* DumpMainXMP Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018882060B7C93AB00EECA52 /* Build configuration list for PBXNativeTarget "DumpMainXMP Debug" */;
+			buildPhases = (
+				018882020B7C93AB00EECA52 /* Sources */,
+				018882050B7C93AB00EECA52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DumpMainXMP Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 018882080B7C93AB00EECA52 /* DumpMainXMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		0188820A0B7C93AF00EECA52 /* DumpMainXMP Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0188820F0B7C93AF00EECA52 /* Build configuration list for PBXNativeTarget "DumpMainXMP Release" */;
+			buildPhases = (
+				0188820B0B7C93AF00EECA52 /* Sources */,
+				0188820E0B7C93AF00EECA52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DumpMainXMP Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 018882110B7C93AF00EECA52 /* DumpMainXMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2AFCA0E3A01F6003F4586 /* CustomSchema Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2AFCE0E3A01F6003F4586 /* Build configuration list for PBXNativeTarget "CustomSchema Debug" */;
+			buildPhases = (
+				01C2AFCB0E3A01F6003F4586 /* Sources */,
+				01C2AFCD0E3A01F6003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomSchema Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2AFD00E3A01F6003F4586 /* CustomSchema */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2AFD20E3A01F9003F4586 /* CustomSchema Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2AFD60E3A01F9003F4586 /* Build configuration list for PBXNativeTarget "CustomSchema Release" */;
+			buildPhases = (
+				01C2AFD30E3A01F9003F4586 /* Sources */,
+				01C2AFD50E3A01F9003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomSchema Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2AFD80E3A01F9003F4586 /* CustomSchema */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2AFE20E3A035E003F4586 /* Dumpfile Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2AFE60E3A035E003F4586 /* Build configuration list for PBXNativeTarget "Dumpfile Debug" */;
+			buildPhases = (
+				01C2AFE30E3A035E003F4586 /* Sources */,
+				01C2AFE50E3A035E003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dumpfile Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2AFE80E3A035E003F4586 /* dumpfile */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2AFEA0E3A0364003F4586 /* Dumpfile Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2AFEE0E3A0364003F4586 /* Build configuration list for PBXNativeTarget "Dumpfile Release" */;
+			buildPhases = (
+				01C2AFEB0E3A0364003F4586 /* Sources */,
+				01C2AFED0E3A0364003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dumpfile Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2AFF00E3A0364003F4586 /* dumpfile */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2B0530E3A069A003F4586 /* ReadingXMP Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2B0570E3A069A003F4586 /* Build configuration list for PBXNativeTarget "ReadingXMP Debug" */;
+			buildPhases = (
+				01C2B0540E3A069A003F4586 /* Sources */,
+				01C2B0560E3A069A003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReadingXMP Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2B0590E3A069A003F4586 /* ReadingXMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2B05B0E3A069A003F4586 /* ReadingXMP Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2B05F0E3A069A003F4586 /* Build configuration list for PBXNativeTarget "ReadingXMP Release" */;
+			buildPhases = (
+				01C2B05C0E3A069A003F4586 /* Sources */,
+				01C2B05E0E3A069A003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReadingXMP Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2B0610E3A069A003F4586 /* ReadingXMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2B0630E3A06C4003F4586 /* ModifyingXMP Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2B0670E3A06C4003F4586 /* Build configuration list for PBXNativeTarget "ModifyingXMP Debug" */;
+			buildPhases = (
+				01C2B0640E3A06C4003F4586 /* Sources */,
+				01C2B0660E3A06C4003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ModifyingXMP Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2B0690E3A06C4003F4586 /* ModifyingXMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2B06B0E3A06C4003F4586 /* ModifyingXMP Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2B06F0E3A06C4003F4586 /* Build configuration list for PBXNativeTarget "ModifyingXMP Release" */;
+			buildPhases = (
+				01C2B06C0E3A06C4003F4586 /* Sources */,
+				01C2B06E0E3A06C4003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ModifyingXMP Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2B0710E3A06C4003F4586 /* ModifyingXMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2B0860E3A07A7003F4586 /* XMPIterations Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2B08A0E3A07A7003F4586 /* Build configuration list for PBXNativeTarget "XMPIterations Debug" */;
+			buildPhases = (
+				01C2B0870E3A07A7003F4586 /* Sources */,
+				01C2B0890E3A07A7003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPIterations Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2B08C0E3A07A7003F4586 /* XMPIterations */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2B08E0E3A07A7003F4586 /* XMPIterations Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2B0920E3A07A7003F4586 /* Build configuration list for PBXNativeTarget "XMPIterations Release" */;
+			buildPhases = (
+				01C2B08F0E3A07A7003F4586 /* Sources */,
+				01C2B0910E3A07A7003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPIterations Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2B0940E3A07A7003F4586 /* XMPIterations */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2B0A20E3A084F003F4586 /* XMPCommand Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2B0A60E3A084F003F4586 /* Build configuration list for PBXNativeTarget "XMPCommand Debug" */;
+			buildPhases = (
+				01C2B0A30E3A084F003F4586 /* Sources */,
+				01C2B0A50E3A084F003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPCommand Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2B0A80E3A084F003F4586 /* xmpcommand */;
+			productType = "com.apple.product-type.tool";
+		};
+		01C2B0AA0E3A084F003F4586 /* XMPCommand Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C2B0AE0E3A084F003F4586 /* Build configuration list for PBXNativeTarget "XMPCommand Release" */;
+			buildPhases = (
+				01C2B0AB0E3A084F003F4586 /* Sources */,
+				01C2B0AD0E3A084F003F4586 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPCommand Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = 01C2B0B00E3A084F003F4586 /* xmpcommand */;
+			productType = "com.apple.product-type.tool";
+		};
+		DC9728FD09A3E964005A68DF /* DumpScannedXMP Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC97290109A3E964005A68DF /* Build configuration list for PBXNativeTarget "DumpScannedXMP Debug" */;
+			buildPhases = (
+				DC9728FE09A3E964005A68DF /* Sources */,
+				DC97290009A3E964005A68DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DumpScannedXMP Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = DC97290309A3E964005A68DF /* DumpScannedXMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		DC97290509A3E969005A68DF /* DumpScannedXMP Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC97290909A3E969005A68DF /* Build configuration list for PBXNativeTarget "DumpScannedXMP Release" */;
+			buildPhases = (
+				DC97290609A3E969005A68DF /* Sources */,
+				DC97290809A3E969005A68DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DumpScannedXMP Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = DC97290B09A3E969005A68DF /* DumpScannedXMP */;
+			productType = "com.apple.product-type.tool";
+		};
+		DCE615410951C75C001247EE /* XMPCoreCoverage Release */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE615450951C75C001247EE /* Build configuration list for PBXNativeTarget "XMPCoreCoverage Release" */;
+			buildPhases = (
+				DCE615420951C75C001247EE /* Sources */,
+				DCE615440951C75C001247EE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPCoreCoverage Release";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = DCE615470951C75C001247EE /* XMPCoreCoverage */;
+			productType = "com.apple.product-type.tool";
+		};
+		DCED0E5B089E7E6E009B80AF /* XMPCoreCoverage Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCED0E60089E7E6E009B80AF /* Build configuration list for PBXNativeTarget "XMPCoreCoverage Debug" */;
+			buildPhases = (
+				DCED0E5C089E7E6E009B80AF /* Sources */,
+				DCED0E5E089E7E6E009B80AF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XMPCoreCoverage Debug";
+			productInstallPath = "$(HOME)/bin";
+			productName = XMPCoverage;
+			productReference = DCED0E65089E7E6E009B80AF /* XMPCoreCoverage */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DC47BE960871F34F0088D201 /* Build configuration list for PBXProject "XMPSamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* XMPCoverage */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCED0E5B089E7E6E009B80AF /* XMPCoreCoverage Debug */,
+				DCE615410951C75C001247EE /* XMPCoreCoverage Release */,
+				DC9728FD09A3E964005A68DF /* DumpScannedXMP Debug */,
+				DC97290509A3E969005A68DF /* DumpScannedXMP Release */,
+				018881EF0B7C935100EECA52 /* XMPFilesCoverage Debug */,
+				018881F70B7C936A00EECA52 /* XMPFilesCoverage Release */,
+				018882010B7C93AB00EECA52 /* DumpMainXMP Debug */,
+				0188820A0B7C93AF00EECA52 /* DumpMainXMP Release */,
+				01C2AFCA0E3A01F6003F4586 /* CustomSchema Debug */,
+				01C2AFD20E3A01F9003F4586 /* CustomSchema Release */,
+				01C2AFE20E3A035E003F4586 /* Dumpfile Debug */,
+				01C2AFEA0E3A0364003F4586 /* Dumpfile Release */,
+				01C2B0530E3A069A003F4586 /* ReadingXMP Debug */,
+				01C2B05B0E3A069A003F4586 /* ReadingXMP Release */,
+				01C2B0630E3A06C4003F4586 /* ModifyingXMP Debug */,
+				01C2B06B0E3A06C4003F4586 /* ModifyingXMP Release */,
+				01C2B0860E3A07A7003F4586 /* XMPIterations Debug */,
+				01C2B08E0E3A07A7003F4586 /* XMPIterations Release */,
+				01C2B0A20E3A084F003F4586 /* XMPCommand Debug */,
+				01C2B0AA0E3A084F003F4586 /* XMPCommand Release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018881F00B7C935100EECA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018881FF0B7C93A300EECA52 /* XMPFilesCoverage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018881F80B7C936A00EECA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018882000B7C93A300EECA52 /* XMPFilesCoverage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018882020B7C93AB00EECA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018882040B7C93AB00EECA52 /* XMPScanner.cpp in Sources */,
+				018882130B7C93EE00EECA52 /* DumpMainXMP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0188820B0B7C93AF00EECA52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0188820D0B7C93AF00EECA52 /* XMPScanner.cpp in Sources */,
+				018882140B7C93EF00EECA52 /* DumpMainXMP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2AFCB0E3A01F6003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2AFDC0E3A023B003F4586 /* CustomSchema.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2AFD30E3A01F9003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2AFDB0E3A023B003F4586 /* CustomSchema.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2AFE30E3A035E003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2AFF30E3A0398003F4586 /* main.cpp in Sources */,
+				05CD44D511108FEE00E291E1 /* XMPScanner.cpp in Sources */,
+				01C2B0300E3A04F9003F4586 /* DumpFile.cpp in Sources */,
+				01C2B0320E3A04F9003F4586 /* Log.cpp in Sources */,
+				01C2B0360E3A04F9003F4586 /* TagTree.cpp in Sources */,
+				01C2B0420E3A0591003F4586 /* LargeFileAccess.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2AFEB0E3A0364003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2AFF40E3A0398003F4586 /* main.cpp in Sources */,
+				01C2B0380E3A04F9003F4586 /* DumpFile.cpp in Sources */,
+				05CD44D611108FFD00E291E1 /* XMPScanner.cpp in Sources */,
+				01C2B03A0E3A04F9003F4586 /* Log.cpp in Sources */,
+				01C2B03E0E3A04F9003F4586 /* TagTree.cpp in Sources */,
+				01C2B0410E3A0591003F4586 /* LargeFileAccess.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0540E3A069A003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B0790E3A076E003F4586 /* ReadingXMP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B05C0E3A069A003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B0780E3A076E003F4586 /* ReadingXMP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0640E3A06C4003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B0970E3A07F6003F4586 /* ModifyingXMP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B06C0E3A06C4003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B0960E3A07F5003F4586 /* ModifyingXMP.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0870E3A07A7003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B09A0E3A0805003F4586 /* XmpIterations.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B08F0E3A07A7003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B0B20E3A08A3003F4586 /* XmpIterations.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0A30E3A084F003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B0B90E3A08B3003F4586 /* Actions.cpp in Sources */,
+				01C2B0BB0E3A08B3003F4586 /* PrintUsage.cpp in Sources */,
+				01C2B0C10E3A08DC003F4586 /* Log.cpp in Sources */,
+				01C2B0C20E3A08E8003F4586 /* LargeFileAccess.cpp in Sources */,
+				05CD44DE111090AE00E291E1 /* XMPCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C2B0AB0E3A084F003F4586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C2B0BC0E3A08B3003F4586 /* Actions.cpp in Sources */,
+				01C2B0BE0E3A08B3003F4586 /* PrintUsage.cpp in Sources */,
+				01C2B0C00E3A08DB003F4586 /* Log.cpp in Sources */,
+				01C2B0C30E3A08E9003F4586 /* LargeFileAccess.cpp in Sources */,
+				05CD44DF111090AE00E291E1 /* XMPCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9728FE09A3E964005A68DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC97291109A3E9B7005A68DF /* DumpScannedXMP.cpp in Sources */,
+				DC97291409A3E9BF005A68DF /* XMPScanner.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC97290609A3E969005A68DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC97291209A3E9B7005A68DF /* DumpScannedXMP.cpp in Sources */,
+				DC97291509A3E9BF005A68DF /* XMPScanner.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE615420951C75C001247EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE615430951C75C001247EE /* XMPCoreCoverage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCED0E5C089E7E6E009B80AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCED0E5D089E7E6E009B80AF /* XMPCoreCoverage.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		018881F40B7C935100EECA52 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = XMPFilesCoverage;
+			};
+			name = Default;
+		};
+		018881FC0B7C936A00EECA52 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = XMPFilesCoverage;
+			};
+			name = Default;
+		};
+		018882070B7C93AB00EECA52 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = DumpMainXMP;
+			};
+			name = Default;
+		};
+		018882100B7C93AF00EECA52 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = DumpMainXMP;
+			};
+			name = Default;
+		};
+		01C2AFCF0E3A01F6003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = CustomSchema;
+			};
+			name = Default;
+		};
+		01C2AFD70E3A01F9003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = CustomSchema;
+			};
+			name = Default;
+		};
+		01C2AFE70E3A035E003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = dumpfile;
+			};
+			name = Default;
+		};
+		01C2AFEF0E3A0364003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = dumpfile;
+			};
+			name = Default;
+		};
+		01C2B0580E3A069A003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ReadingXMP;
+			};
+			name = Default;
+		};
+		01C2B0600E3A069A003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ReadingXMP;
+			};
+			name = Default;
+		};
+		01C2B0680E3A06C4003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ModifyingXMP;
+			};
+			name = Default;
+		};
+		01C2B0700E3A06C4003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = ModifyingXMP;
+			};
+			name = Default;
+		};
+		01C2B08B0E3A07A7003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = XMPIterations;
+			};
+			name = Default;
+		};
+		01C2B0930E3A07A7003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = XMPIterations;
+			};
+			name = Default;
+		};
+		01C2B0A70E3A084F003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = xmpcommand;
+			};
+			name = Default;
+		};
+		01C2B0AF0E3A084F003F4586 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = xmpcommand;
+			};
+			name = Default;
+		};
+		DC47BE980871F34F0088D201 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B00951CF710040D71F /* XMPSamples-Common.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		DC97290209A3E964005A68DF /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = DumpScannedXMP;
+			};
+			name = Default;
+		};
+		DC97290A09A3E969005A68DF /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = DumpScannedXMP;
+			};
+			name = Default;
+		};
+		DCE615460951C75C001247EE /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B20951CF710040D71F /* XMPSamples-Release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = XMPCoreCoverage;
+			};
+			name = Default;
+		};
+		DCED0E63089E7E6E009B80AF /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE400B10951CF710040D71F /* XMPSamples-Debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = XMPCoreCoverage;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		018881F30B7C935100EECA52 /* Build configuration list for PBXNativeTarget "XMPFilesCoverage Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018881F40B7C935100EECA52 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		018881FB0B7C936A00EECA52 /* Build configuration list for PBXNativeTarget "XMPFilesCoverage Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018881FC0B7C936A00EECA52 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		018882060B7C93AB00EECA52 /* Build configuration list for PBXNativeTarget "DumpMainXMP Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018882070B7C93AB00EECA52 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		0188820F0B7C93AF00EECA52 /* Build configuration list for PBXNativeTarget "DumpMainXMP Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018882100B7C93AF00EECA52 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2AFCE0E3A01F6003F4586 /* Build configuration list for PBXNativeTarget "CustomSchema Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2AFCF0E3A01F6003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2AFD60E3A01F9003F4586 /* Build configuration list for PBXNativeTarget "CustomSchema Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2AFD70E3A01F9003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2AFE60E3A035E003F4586 /* Build configuration list for PBXNativeTarget "Dumpfile Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2AFE70E3A035E003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2AFEE0E3A0364003F4586 /* Build configuration list for PBXNativeTarget "Dumpfile Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2AFEF0E3A0364003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2B0570E3A069A003F4586 /* Build configuration list for PBXNativeTarget "ReadingXMP Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2B0580E3A069A003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2B05F0E3A069A003F4586 /* Build configuration list for PBXNativeTarget "ReadingXMP Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2B0600E3A069A003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2B0670E3A06C4003F4586 /* Build configuration list for PBXNativeTarget "ModifyingXMP Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2B0680E3A06C4003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2B06F0E3A06C4003F4586 /* Build configuration list for PBXNativeTarget "ModifyingXMP Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2B0700E3A06C4003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2B08A0E3A07A7003F4586 /* Build configuration list for PBXNativeTarget "XMPIterations Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2B08B0E3A07A7003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2B0920E3A07A7003F4586 /* Build configuration list for PBXNativeTarget "XMPIterations Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2B0930E3A07A7003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2B0A60E3A084F003F4586 /* Build configuration list for PBXNativeTarget "XMPCommand Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2B0A70E3A084F003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		01C2B0AE0E3A084F003F4586 /* Build configuration list for PBXNativeTarget "XMPCommand Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C2B0AF0E3A084F003F4586 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DC47BE960871F34F0088D201 /* Build configuration list for PBXProject "XMPSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC47BE980871F34F0088D201 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DC97290109A3E964005A68DF /* Build configuration list for PBXNativeTarget "DumpScannedXMP Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC97290209A3E964005A68DF /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DC97290909A3E969005A68DF /* Build configuration list for PBXNativeTarget "DumpScannedXMP Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC97290A09A3E969005A68DF /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DCE615450951C75C001247EE /* Build configuration list for PBXNativeTarget "XMPCoreCoverage Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE615460951C75C001247EE /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		DCED0E60089E7E6E009B80AF /* Build configuration list for PBXNativeTarget "XMPCoreCoverage Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCED0E63089E7E6E009B80AF /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

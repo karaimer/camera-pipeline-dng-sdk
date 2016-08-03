@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{be8b7123-2efd-4e6e-a980-ffa3771da3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c62b13dc-6728-47c9-bd85-dcc2d66f3edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{5d8ff4ed-3a19-4dda-8b54-d23d5ff7384c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\include">
+      <UniqueIdentifier>{36669ecc-d1ae-49fe-b62a-696335c6d2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\source">
+      <UniqueIdentifier>{e245d6bd-e1ab-4fd5-ac2d-777b2139dc0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{81a5c5f2-c70a-4437-bbe2-d8d115561c7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\Template_Handler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\api\source\HostAPIAccess.cpp">
+      <Filter>api\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\api\source\PluginAPIImpl.cpp">
+      <Filter>api\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\api\source\PluginBase.cpp">
+      <Filter>api\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\api\source\PluginRegistry.cpp">
+      <Filter>api\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\Host_IO-Win.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\source\UnicodeConversions.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resource\txt\MODULE_IDENTIFIER.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\txt\XMPPLUGINUIDS-32.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resource\txt\XMPPLUGINUIDS-64.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\api\source\HostAPIAccess.h">
+      <Filter>api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\api\source\PluginBase.h">
+      <Filter>api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\api\source\PluginRegistry.h">
+      <Filter>api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\api\source\PluginConst.h">
+      <Filter>api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\api\source\PluginHandler.h">
+      <Filter>api\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\api\source\HostAPI.h">
+      <Filter>api\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PluginTemplate-32.rc" />
+    <ResourceCompile Include="PluginTemplate-64.rc" />
+  </ItemGroup>
+</Project>

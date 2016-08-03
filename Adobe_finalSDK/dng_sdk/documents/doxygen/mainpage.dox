@@ -1,0 +1,34 @@
+/** \mainpage Adobe Digital Negative SDK 1.4
+ *
+ * \section Intro Introduction
+ *
+ *  Digital Negative (DNG) is a non-proprietary file format for camera raw image data and metadata.
+ *  A wide variety of cameras and sensor types are supported by DNG, using the same documented file layout.
+ *
+ *  This SDK provides support for reading and writing DNG files as well as support for converting
+ *  DNG data into a displayable or processible image. This SDK is intended to serve as a starting point
+ *  for adding DNG support to existing applications that use and manipulate images.
+ *
+ * \section dng_validate Command line validation: dng_validate
+ *
+ *  A good place to start investigating the DNG SDK is the dng_validate command line tool,
+ *  which can read, validate and convert an existing DNG file. The dng_validate.cpp file
+ *  demonstrates a number of common uses of the SDK. 
+ *  Documentation for the tool can be found \ref doc_dng_validate "here."
+ *
+ * \section start Starting points
+ *
+ *  - dng_host Used to customize memory allocation, to communicate progress updates and test for cancellation.
+ *  - dng_negative Main container for metadata and image data in a DNG file.
+ *  - dng_image Class used to hold and manipualte image data.
+ *  - dng_render Class used to convert DNG RAW data to displayable image data.
+ *  - dng_image_writer Class used to write DNG files.
+ *
+ * \section related Related documentation
+ *
+ *	- \anchor spec_dng The Adobe Digital Negative specification: http://www.adobe.com/products/dng/pdfs/dng_spec.pdf
+ *	- \anchor spec_tiff_6 TIFF 6 specification: http://partners.adobe.com/public/developer/tiff/index.html
+ *	- \anchor spec_tiff_ep TIFF/EP specification: http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=29377&ICS1=37&ICS2=40&ICS3=99
+ *	- \anchor spec_exif EXIF specification: http://www.jeita.or.jp/english/standard/html/1_4.htm
+ *	- \anchor spec_iptc IPTC specification: http://www.iptc.org/IPTC7901/
+ */

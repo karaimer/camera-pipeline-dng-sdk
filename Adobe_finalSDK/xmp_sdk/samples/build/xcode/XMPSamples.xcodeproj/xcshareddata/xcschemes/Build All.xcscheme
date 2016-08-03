@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2AFCA0E3A01F6003F4586"
+               BuildableName = "CustomSchema"
+               BlueprintName = "CustomSchema Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2AFD20E3A01F9003F4586"
+               BuildableName = "CustomSchema"
+               BlueprintName = "CustomSchema Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "018882010B7C93AB00EECA52"
+               BuildableName = "DumpMainXMP"
+               BlueprintName = "DumpMainXMP Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0188820A0B7C93AF00EECA52"
+               BuildableName = "DumpMainXMP"
+               BlueprintName = "DumpMainXMP Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC9728FD09A3E964005A68DF"
+               BuildableName = "DumpScannedXMP"
+               BlueprintName = "DumpScannedXMP Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC97290509A3E969005A68DF"
+               BuildableName = "DumpScannedXMP"
+               BlueprintName = "DumpScannedXMP Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2AFE20E3A035E003F4586"
+               BuildableName = "dumpfile"
+               BlueprintName = "Dumpfile Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2AFEA0E3A0364003F4586"
+               BuildableName = "dumpfile"
+               BlueprintName = "Dumpfile Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2B0630E3A06C4003F4586"
+               BuildableName = "ModifyingXMP"
+               BlueprintName = "ModifyingXMP Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2B06B0E3A06C4003F4586"
+               BuildableName = "ModifyingXMP"
+               BlueprintName = "ModifyingXMP Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2B0530E3A069A003F4586"
+               BuildableName = "ReadingXMP"
+               BlueprintName = "ReadingXMP Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2B05B0E3A069A003F4586"
+               BuildableName = "ReadingXMP"
+               BlueprintName = "ReadingXMP Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2B0A20E3A084F003F4586"
+               BuildableName = "xmpcommand"
+               BlueprintName = "XMPCommand Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2B0AA0E3A084F003F4586"
+               BuildableName = "xmpcommand"
+               BlueprintName = "XMPCommand Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DCED0E5B089E7E6E009B80AF"
+               BuildableName = "XMPCoreCoverage"
+               BlueprintName = "XMPCoreCoverage Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DCE615410951C75C001247EE"
+               BuildableName = "XMPCoreCoverage"
+               BlueprintName = "XMPCoreCoverage Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "018881EF0B7C935100EECA52"
+               BuildableName = "XMPFilesCoverage"
+               BlueprintName = "XMPFilesCoverage Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "018881F70B7C936A00EECA52"
+               BuildableName = "XMPFilesCoverage"
+               BlueprintName = "XMPFilesCoverage Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2B0860E3A07A7003F4586"
+               BuildableName = "XMPIterations"
+               BlueprintName = "XMPIterations Debug"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "01C2B08E0E3A07A7003F4586"
+               BuildableName = "XMPIterations"
+               BlueprintName = "XMPIterations Release"
+               ReferencedContainer = "container:XMPSamples.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Default">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Default"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Default"
+      debugDocumentVersioning = "YES">
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Default">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Default"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

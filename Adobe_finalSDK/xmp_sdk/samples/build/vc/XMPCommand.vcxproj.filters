@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common Source">
+      <UniqueIdentifier>{fe8697a6-237d-4555-9561-4fc11445c5d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XMPCommand">
+      <UniqueIdentifier>{eb39e102-b6e9-4787-b04d-4d4dd7fb2439}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\common\LargeFileAccess.cpp">
+      <Filter>Common Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\Log.cpp">
+      <Filter>Common Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\UnicodeConversions.cpp">
+      <Filter>Common Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\xmpcommand\PrintUsage.cpp">
+      <Filter>XMPCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\xmpcommand\XMPCommand.cpp">
+      <Filter>XMPCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\xmpcommand\Actions.cpp">
+      <Filter>XMPCommand</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

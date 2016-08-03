@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common Source">
+      <UniqueIdentifier>{fe8697a6-237d-4555-9561-4fc11445c5d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DumpFile">
+      <UniqueIdentifier>{5b7639bc-530e-4b8d-8290-3a0e4a2b1224}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\common\LargeFileAccess.cpp">
+      <Filter>Common Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\XMPScanner.cpp">
+      <Filter>Common Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\dumpfile\main.cpp">
+      <Filter>DumpFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\DumpFile.cpp">
+      <Filter>DumpFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\TagTree.cpp">
+      <Filter>Common Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\Log.cpp">
+      <Filter>Common Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

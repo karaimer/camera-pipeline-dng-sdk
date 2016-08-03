@@ -1,0 +1,15 @@
+BUILD_MODE = release
+LIB_SUFFIX = Static
+
+OTHER_LDFLAGS = ${XMP_ROOT}/public/libraries/macintosh/${BUILD_MODE}/libXMPCore${LIB_SUFFIX}.a ${XMP_ROOT}/public/libraries/macintosh/${BUILD_MODE}/libXMPFiles${LIB_SUFFIX}.a -framework CoreServices
+
+OBJROOT = ${SAMPLES_ROOT}/intermediate/macintosh/${BUILD_MODE}
+SYMROOT = ${SAMPLES_ROOT}/target/macintosh/${BUILD_MODE}
+
+CONFIGURATION_BUILD_DIR = ${SYMROOT}
+
+GCC_PREPROCESSOR_DEFINITIONS = ${COMMON_DEFINES} NDEBUG=1
+
+GCC_GENERATE_DEBUGGING_SYMBOLS = NO
+GCC_DEBUGGING_SYMBOLS = used
+GCC_OPTIMIZATION_LEVEL = s

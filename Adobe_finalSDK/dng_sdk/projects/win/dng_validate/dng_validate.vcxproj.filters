@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\dng_1d_function.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_1d_table.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_abort_sniffer.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_area_task.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_bad_pixels.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_bottlenecks.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_camera_profile.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_color_space.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_color_spec.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_date_time.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_exceptions.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_exif.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_file_stream.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_filter_task.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_fingerprint.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_gain_map.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_globals.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_host.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_hue_sat_map.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_ifd.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_image.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_image_writer.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_info.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_iptc.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_jpeg_image.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_lens_correction.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_linearization_info.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_lossless_jpeg.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_matrix.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_memory.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_memory_stream.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_misc_opcodes.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_mosaic_info.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_mutex.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_negative.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_opcode_list.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_opcodes.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_orientation.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_parse_utils.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_pixel_buffer.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_point.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_preview.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_pthread.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_rational.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_read_image.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_rect.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_ref_counted_block.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_reference.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_render.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_resample.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_shared.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_simple_image.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_spline.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_stream.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_string.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_string_list.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_tag_types.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_temperature.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_tile_iterator.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_tone_curve.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_utils.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_validate.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_xmp.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_xmp_sdk.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\dng_xy_coord.cpp">
+      <Filter>dng_sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jaricom.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcapimin.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcapistd.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcarith.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jccoefct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jccolor.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcdctmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jchuff.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcinit.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcmainct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcmarker.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcmaster.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcomapi.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcparam.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcprepct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jcsample.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jctrans.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdapimin.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdapistd.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdarith.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdatadst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdatasrc.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdcoefct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdcolor.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jddctmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdhuff.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdinput.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdmainct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdmarker.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdmaster.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdmerge.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdpostct.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdsample.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jdtrans.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jerror.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jfdctflt.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jfdctfst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jfdctint.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jidctflt.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jidctfst.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jidctint.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jquant1.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jquant2.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jutils.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jmemmgr.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\libjpeg\jmemnobs.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\dng_xy_coord.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_1d_function.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_1d_table.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_abort_sniffer.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_area_task.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_assertions.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_auto_ptr.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_bad_pixels.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_bottlenecks.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_camera_profile.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_classes.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_color_space.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_color_spec.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_date_time.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_errors.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_exceptions.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_exif.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_fast_module.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_file_stream.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_filter_task.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_fingerprint.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_flags.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_gain_map.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_globals.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_host.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_hue_sat_map.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_ifd.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_image.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_image_writer.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_info.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_iptc.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_jpeg_image.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_lens_correction.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_linearization_info.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_lossless_jpeg.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_matrix.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_memory.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_memory_stream.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_misc_opcodes.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_mosaic_info.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_mutex.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_negative.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_opcode_list.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_opcodes.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_orientation.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_parse_utils.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_pixel_buffer.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_point.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_preview.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_pthread.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_rational.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_read_image.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_rect.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_ref_counted_block.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_reference.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_render.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_resample.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_sdk_limits.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_shared.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_simple_image.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_spline.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_stream.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_string.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_string_list.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_tag_codes.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_tag_types.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_tag_values.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_temperature.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_tile_iterator.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_tone_curve.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_types.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_utils.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_xmp.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\dng_xmp_sdk.h">
+      <Filter>dng_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libjpeg\jerror.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libjpeg\jpeglib.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libjpeg\jconfig.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\libjpeg\jdct.h">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dng_sdk">
+      <UniqueIdentifier>{b5d81b2b-e459-4998-821a-df70d3ab335d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg">
+      <UniqueIdentifier>{ccf52a22-61a9-4b37-abbd-eb909d4151f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

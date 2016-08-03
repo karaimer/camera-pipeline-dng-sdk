@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0550EBFD14F687FD0015E491 /* Host_IO-Mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFA14F687FD0015E491 /* Host_IO-Mac.cpp */; };
+		0550EBFE14F687FD0015E491 /* Host_IO-Mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFA14F687FD0015E491 /* Host_IO-Mac.cpp */; };
+		0550EBFF14F687FD0015E491 /* Host_IO-Mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFA14F687FD0015E491 /* Host_IO-Mac.cpp */; };
+		0550EC0014F687FD0015E491 /* Host_IO-Mac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFA14F687FD0015E491 /* Host_IO-Mac.cpp */; };
+		0550EC0114F687FD0015E491 /* XIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFB14F687FD0015E491 /* XIO.cpp */; };
+		0550EC0214F687FD0015E491 /* XIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFB14F687FD0015E491 /* XIO.cpp */; };
+		0550EC0314F687FD0015E491 /* XIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFB14F687FD0015E491 /* XIO.cpp */; };
+		0550EC0414F687FD0015E491 /* XIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFB14F687FD0015E491 /* XIO.cpp */; };
+		0550EC0514F687FD0015E491 /* XMPFiles_IO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFC14F687FD0015E491 /* XMPFiles_IO.cpp */; };
+		0550EC0614F687FD0015E491 /* XMPFiles_IO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFC14F687FD0015E491 /* XMPFiles_IO.cpp */; };
+		0550EC0714F687FD0015E491 /* XMPFiles_IO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFC14F687FD0015E491 /* XMPFiles_IO.cpp */; };
+		0550EC0814F687FD0015E491 /* XMPFiles_IO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0550EBFC14F687FD0015E491 /* XMPFiles_IO.cpp */; };
+		0550EC0A14F688320015E491 /* XMPPLUGINUIDS-32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0550EC0914F688320015E491 /* XMPPLUGINUIDS-32.txt */; };
+		0550EC0B14F688320015E491 /* XMPPLUGINUIDS-32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0550EC0914F688320015E491 /* XMPPLUGINUIDS-32.txt */; };
+		0550EC0F14F688460015E491 /* XMPPLUGINUIDS-64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0550EC0E14F688460015E491 /* XMPPLUGINUIDS-64.txt */; };
+		0550EC1014F688460015E491 /* XMPPLUGINUIDS-64.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0550EC0E14F688460015E491 /* XMPPLUGINUIDS-64.txt */; };
+		120A3FD4139AAED2003E6D70 /* HostAPIAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FCE139AAED2003E6D70 /* HostAPIAccess.cpp */; };
+		120A3FD6139AAED2003E6D70 /* PluginAPIImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FD0139AAED2003E6D70 /* PluginAPIImpl.cpp */; };
+		120A3FD8139AAED2003E6D70 /* PluginRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FD2139AAED2003E6D70 /* PluginRegistry.cpp */; };
+		120A3FE4139AB023003E6D70 /* MODULE_IDENTIFIER.txt in Resources */ = {isa = PBXBuildFile; fileRef = 120A3FE2139AB023003E6D70 /* MODULE_IDENTIFIER.txt */; };
+		120A4049139AB954003E6D70 /* PluginBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A4048139AB954003E6D70 /* PluginBase.cpp */; };
+		120A41D4139ABDC9003E6D70 /* Template_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A41D3139ABDC9003E6D70 /* Template_Handler.cpp */; };
+		120A4541139CE4F5003E6D70 /* MODULE_IDENTIFIER.txt in Resources */ = {isa = PBXBuildFile; fileRef = 120A3FE2139AB023003E6D70 /* MODULE_IDENTIFIER.txt */; };
+		120A4543139CE4F5003E6D70 /* MODULE_IDENTIFIER.txt in Resources */ = {isa = PBXBuildFile; fileRef = 120A3FE2139AB023003E6D70 /* MODULE_IDENTIFIER.txt */; };
+		120A4545139CE4F6003E6D70 /* MODULE_IDENTIFIER.txt in Resources */ = {isa = PBXBuildFile; fileRef = 120A3FE2139AB023003E6D70 /* MODULE_IDENTIFIER.txt */; };
+		120A4547139CE50A003E6D70 /* HostAPIAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FCE139AAED2003E6D70 /* HostAPIAccess.cpp */; };
+		120A4548139CE50A003E6D70 /* PluginAPIImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FD0139AAED2003E6D70 /* PluginAPIImpl.cpp */; };
+		120A4549139CE50A003E6D70 /* PluginRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FD2139AAED2003E6D70 /* PluginRegistry.cpp */; };
+		120A454A139CE50A003E6D70 /* PluginBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A4048139AB954003E6D70 /* PluginBase.cpp */; };
+		120A454B139CE50A003E6D70 /* Template_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A41D3139ABDC9003E6D70 /* Template_Handler.cpp */; };
+		120A454C139CE50B003E6D70 /* HostAPIAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FCE139AAED2003E6D70 /* HostAPIAccess.cpp */; };
+		120A454D139CE50B003E6D70 /* PluginAPIImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FD0139AAED2003E6D70 /* PluginAPIImpl.cpp */; };
+		120A454E139CE50B003E6D70 /* PluginRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FD2139AAED2003E6D70 /* PluginRegistry.cpp */; };
+		120A454F139CE50B003E6D70 /* PluginBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A4048139AB954003E6D70 /* PluginBase.cpp */; };
+		120A4550139CE50B003E6D70 /* Template_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A41D3139ABDC9003E6D70 /* Template_Handler.cpp */; };
+		120A4551139CE50B003E6D70 /* HostAPIAccess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FCE139AAED2003E6D70 /* HostAPIAccess.cpp */; };
+		120A4552139CE50B003E6D70 /* PluginAPIImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FD0139AAED2003E6D70 /* PluginAPIImpl.cpp */; };
+		120A4553139CE50B003E6D70 /* PluginRegistry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A3FD2139AAED2003E6D70 /* PluginRegistry.cpp */; };
+		120A4554139CE50B003E6D70 /* PluginBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A4048139AB954003E6D70 /* PluginBase.cpp */; };
+		120A4555139CE50B003E6D70 /* Template_Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 120A41D3139ABDC9003E6D70 /* Template_Handler.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0550EBFA14F687FD0015E491 /* Host_IO-Mac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "Host_IO-Mac.cpp"; path = "../../../../source/Host_IO-Mac.cpp"; sourceTree = SOURCE_ROOT; };
+		0550EBFB14F687FD0015E491 /* XIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XIO.cpp; path = ../../../../source/XIO.cpp; sourceTree = SOURCE_ROOT; };
+		0550EBFC14F687FD0015E491 /* XMPFiles_IO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMPFiles_IO.cpp; path = ../../../../source/XMPFiles_IO.cpp; sourceTree = SOURCE_ROOT; };
+		0550EC0914F688320015E491 /* XMPPLUGINUIDS-32.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "XMPPLUGINUIDS-32.txt"; path = "../resource/txt/XMPPLUGINUIDS-32.txt"; sourceTree = SOURCE_ROOT; };
+		0550EC0E14F688460015E491 /* XMPPLUGINUIDS-64.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "XMPPLUGINUIDS-64.txt"; path = "../resource/txt/XMPPLUGINUIDS-64.txt"; sourceTree = SOURCE_ROOT; };
+		120A3FCE139AAED2003E6D70 /* HostAPIAccess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HostAPIAccess.cpp; path = ../../../api/source/HostAPIAccess.cpp; sourceTree = SOURCE_ROOT; };
+		120A3FCF139AAED2003E6D70 /* HostAPIAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HostAPIAccess.h; path = ../../../api/source/HostAPIAccess.h; sourceTree = SOURCE_ROOT; };
+		120A3FD0139AAED2003E6D70 /* PluginAPIImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PluginAPIImpl.cpp; path = ../../../api/source/PluginAPIImpl.cpp; sourceTree = SOURCE_ROOT; };
+		120A3FD1139AAED2003E6D70 /* PluginBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginBase.h; path = ../../../api/source/PluginBase.h; sourceTree = SOURCE_ROOT; };
+		120A3FD2139AAED2003E6D70 /* PluginRegistry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PluginRegistry.cpp; path = ../../../api/source/PluginRegistry.cpp; sourceTree = SOURCE_ROOT; };
+		120A3FD3139AAED2003E6D70 /* PluginRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginRegistry.h; path = ../../../api/source/PluginRegistry.h; sourceTree = SOURCE_ROOT; };
+		120A3FDA139AAF11003E6D70 /* HostAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HostAPI.h; path = ../../../api/source/HostAPI.h; sourceTree = SOURCE_ROOT; };
+		120A3FDB139AAF11003E6D70 /* PluginConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginConst.h; path = ../../../api/source/PluginConst.h; sourceTree = SOURCE_ROOT; };
+		120A3FDC139AAF11003E6D70 /* PluginHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PluginHandler.h; path = ../../../api/source/PluginHandler.h; sourceTree = SOURCE_ROOT; };
+		120A3FE0139AAFA5003E6D70 /* PluginCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PluginCommon.xcconfig; sourceTree = SOURCE_ROOT; };
+		120A3FE2139AB023003E6D70 /* MODULE_IDENTIFIER.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MODULE_IDENTIFIER.txt; path = ../resource/txt/MODULE_IDENTIFIER.txt; sourceTree = SOURCE_ROOT; };
+		120A4048139AB954003E6D70 /* PluginBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PluginBase.cpp; path = ../../../api/source/PluginBase.cpp; sourceTree = SOURCE_ROOT; };
+		120A41D3139ABDC9003E6D70 /* Template_Handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Template_Handler.cpp; path = ../../source/Template_Handler.cpp; sourceTree = SOURCE_ROOT; };
+		120A4433139CD1AF003E6D70 /* Debug32.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug32.xcconfig; sourceTree = SOURCE_ROOT; };
+		120A4434139CD1AF003E6D70 /* Debug64.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug64.xcconfig; sourceTree = SOURCE_ROOT; };
+		120A4435139CD1AF003E6D70 /* Release32.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release32.xcconfig; sourceTree = SOURCE_ROOT; };
+		120A4436139CD1AF003E6D70 /* Release64.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release64.xcconfig; sourceTree = SOURCE_ROOT; };
+		120A4455139CD383003E6D70 /* PluginTemplate-32.xpi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PluginTemplate-32.xpi"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120A451E139CE32E003E6D70 /* PluginTemplate-32.xpi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PluginTemplate-32.xpi"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120A4534139CE476003E6D70 /* PluginTemplate-64.xpi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PluginTemplate-64.xpi"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120A453D139CE491003E6D70 /* PluginTemplate-64.xpi */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PluginTemplate-64.xpi"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1292145A139FB919003D2AF8 /* PluginTemplateCommon.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PluginTemplateCommon.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0550EBF814F6879F0015E491 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				0550EBFA14F687FD0015E491 /* Host_IO-Mac.cpp */,
+				0550EBFB14F687FD0015E491 /* XIO.cpp */,
+				0550EBFC14F687FD0015E491 /* XMPFiles_IO.cpp */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* PluginTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				120A4432139CD175003E6D70 /* Build Files */,
+				120A41D2139ABDA1003E6D70 /* Source Files */,
+				08FB77AEFE84172EC02AAC07 /* api */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				120A4455139CD383003E6D70 /* PluginTemplate-32.xpi */,
+				120A451E139CE32E003E6D70 /* PluginTemplate-32.xpi */,
+				120A4534139CE476003E6D70 /* PluginTemplate-64.xpi */,
+				120A453D139CE491003E6D70 /* PluginTemplate-64.xpi */,
+			);
+			name = PluginTemplate;
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0550EC0E14F688460015E491 /* XMPPLUGINUIDS-64.txt */,
+				0550EC0914F688320015E491 /* XMPPLUGINUIDS-32.txt */,
+				120A3FE2139AB023003E6D70 /* MODULE_IDENTIFIER.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				120A3F73139AA649003E6D70 /* source */,
+				120A3F72139AA63E003E6D70 /* include */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
+		120A3F72139AA63E003E6D70 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				120A3FCF139AAED2003E6D70 /* HostAPIAccess.h */,
+				120A3FD1139AAED2003E6D70 /* PluginBase.h */,
+				120A3FD3139AAED2003E6D70 /* PluginRegistry.h */,
+				120A3FDA139AAF11003E6D70 /* HostAPI.h */,
+				120A3FDB139AAF11003E6D70 /* PluginConst.h */,
+				120A3FDC139AAF11003E6D70 /* PluginHandler.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		120A3F73139AA649003E6D70 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				120A4048139AB954003E6D70 /* PluginBase.cpp */,
+				120A3FCE139AAED2003E6D70 /* HostAPIAccess.cpp */,
+				120A3FD0139AAED2003E6D70 /* PluginAPIImpl.cpp */,
+				120A3FD2139AAED2003E6D70 /* PluginRegistry.cpp */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		120A3F93139AA772003E6D70 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1292145A139FB919003D2AF8 /* PluginTemplateCommon.xcconfig */,
+				120A4433139CD1AF003E6D70 /* Debug32.xcconfig */,
+				120A4434139CD1AF003E6D70 /* Debug64.xcconfig */,
+				120A4435139CD1AF003E6D70 /* Release32.xcconfig */,
+				120A4436139CD1AF003E6D70 /* Release64.xcconfig */,
+				120A3FE0139AAFA5003E6D70 /* PluginCommon.xcconfig */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		120A41D2139ABDA1003E6D70 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0550EBF814F6879F0015E491 /* common */,
+				120A41D3139ABDC9003E6D70 /* Template_Handler.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		120A4432139CD175003E6D70 /* Build Files */ = {
+			isa = PBXGroup;
+			children = (
+				120A3F93139AA772003E6D70 /* Settings */,
+			);
+			name = "Build Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		120A451D139CE32E003E6D70 /* PluginTemplate Release32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120A4521139CE32E003E6D70 /* Build configuration list for PBXNativeTarget "PluginTemplate Release32" */;
+			buildPhases = (
+				120A451A139CE32E003E6D70 /* Resources */,
+				056CCD3D14FD276200D44FBA /* Rename XML manifest */,
+				120A451B139CE32E003E6D70 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PluginTemplate Release32";
+			productName = "PluginTemplate Release32";
+			productReference = 120A451E139CE32E003E6D70 /* PluginTemplate-32.xpi */;
+			productType = "com.apple.product-type.framework";
+		};
+		120A4533139CE476003E6D70 /* PluginTemplate Debug64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120A4537139CE477003E6D70 /* Build configuration list for PBXNativeTarget "PluginTemplate Debug64" */;
+			buildPhases = (
+				120A4530139CE476003E6D70 /* Resources */,
+				056CCD3E14FD277600D44FBA /* Rename XML manifest */,
+				120A4531139CE476003E6D70 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PluginTemplate Debug64";
+			productName = "PluginTemplate Debug64";
+			productReference = 120A4534139CE476003E6D70 /* PluginTemplate-64.xpi */;
+			productType = "com.apple.product-type.framework";
+		};
+		120A453C139CE491003E6D70 /* PluginTemplate Release64 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120A4540139CE492003E6D70 /* Build configuration list for PBXNativeTarget "PluginTemplate Release64" */;
+			buildPhases = (
+				120A4539139CE491003E6D70 /* Resources */,
+				056CCD3F14FD278A00D44FBA /* Rename XML manifest */,
+				120A453A139CE491003E6D70 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PluginTemplate Release64";
+			productName = "PluginTemplate Release64";
+			productReference = 120A453D139CE491003E6D70 /* PluginTemplate-64.xpi */;
+			productType = "com.apple.product-type.framework";
+		};
+		8DC2EF4F0486A6940098B216 /* PluginTemplate Debug32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "PluginTemplate Debug32" */;
+			buildPhases = (
+				8DC2EF520486A6940098B216 /* Resources */,
+				056CCD3C14FD270600D44FBA /* Rename XML manifest */,
+				8DC2EF540486A6940098B216 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PluginTemplate Debug32";
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = PluginTemplate;
+			productReference = 120A4455139CD383003E6D70 /* PluginTemplate-32.xpi */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "PluginTemplate" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* PluginTemplate */;
+			productRefGroup = 0867D691FE84028FC02AAC07 /* PluginTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* PluginTemplate Debug32 */,
+				120A451D139CE32E003E6D70 /* PluginTemplate Release32 */,
+				120A4533139CE476003E6D70 /* PluginTemplate Debug64 */,
+				120A453C139CE491003E6D70 /* PluginTemplate Release64 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		120A451A139CE32E003E6D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A4541139CE4F5003E6D70 /* MODULE_IDENTIFIER.txt in Resources */,
+				0550EC0B14F688320015E491 /* XMPPLUGINUIDS-32.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120A4530139CE476003E6D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A4543139CE4F5003E6D70 /* MODULE_IDENTIFIER.txt in Resources */,
+				0550EC0F14F688460015E491 /* XMPPLUGINUIDS-64.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120A4539139CE491003E6D70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A4545139CE4F6003E6D70 /* MODULE_IDENTIFIER.txt in Resources */,
+				0550EC1014F688460015E491 /* XMPPLUGINUIDS-64.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A3FE4139AB023003E6D70 /* MODULE_IDENTIFIER.txt in Resources */,
+				0550EC0A14F688320015E491 /* XMPPLUGINUIDS-32.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056CCD3C14FD270600D44FBA /* Rename XML manifest */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Rename XML manifest";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mv ${RESOURCE_DIR}/XMPPLUGINUIDS-*.txt ${RESOURCE_DIR}/XMPPLUGINUIDS.txt";
+		};
+		056CCD3D14FD276200D44FBA /* Rename XML manifest */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Rename XML manifest";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mv ${RESOURCE_DIR}/XMPPLUGINUIDS-*.txt ${RESOURCE_DIR}/XMPPLUGINUIDS.txt";
+		};
+		056CCD3E14FD277600D44FBA /* Rename XML manifest */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Rename XML manifest";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mv ${RESOURCE_DIR}/XMPPLUGINUIDS-*.txt ${RESOURCE_DIR}/XMPPLUGINUIDS.txt";
+		};
+		056CCD3F14FD278A00D44FBA /* Rename XML manifest */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Rename XML manifest";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mv ${RESOURCE_DIR}/XMPPLUGINUIDS-*.txt ${RESOURCE_DIR}/XMPPLUGINUIDS.txt";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		120A451B139CE32E003E6D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A4547139CE50A003E6D70 /* HostAPIAccess.cpp in Sources */,
+				120A4548139CE50A003E6D70 /* PluginAPIImpl.cpp in Sources */,
+				120A4549139CE50A003E6D70 /* PluginRegistry.cpp in Sources */,
+				120A454A139CE50A003E6D70 /* PluginBase.cpp in Sources */,
+				120A454B139CE50A003E6D70 /* Template_Handler.cpp in Sources */,
+				0550EBFE14F687FD0015E491 /* Host_IO-Mac.cpp in Sources */,
+				0550EC0214F687FD0015E491 /* XIO.cpp in Sources */,
+				0550EC0614F687FD0015E491 /* XMPFiles_IO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120A4531139CE476003E6D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A454C139CE50B003E6D70 /* HostAPIAccess.cpp in Sources */,
+				120A454D139CE50B003E6D70 /* PluginAPIImpl.cpp in Sources */,
+				120A454E139CE50B003E6D70 /* PluginRegistry.cpp in Sources */,
+				120A454F139CE50B003E6D70 /* PluginBase.cpp in Sources */,
+				120A4550139CE50B003E6D70 /* Template_Handler.cpp in Sources */,
+				0550EBFF14F687FD0015E491 /* Host_IO-Mac.cpp in Sources */,
+				0550EC0314F687FD0015E491 /* XIO.cpp in Sources */,
+				0550EC0714F687FD0015E491 /* XMPFiles_IO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120A453A139CE491003E6D70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A4551139CE50B003E6D70 /* HostAPIAccess.cpp in Sources */,
+				120A4552139CE50B003E6D70 /* PluginAPIImpl.cpp in Sources */,
+				120A4553139CE50B003E6D70 /* PluginRegistry.cpp in Sources */,
+				120A4554139CE50B003E6D70 /* PluginBase.cpp in Sources */,
+				120A4555139CE50B003E6D70 /* Template_Handler.cpp in Sources */,
+				0550EC0014F687FD0015E491 /* Host_IO-Mac.cpp in Sources */,
+				0550EC0414F687FD0015E491 /* XIO.cpp in Sources */,
+				0550EC0814F687FD0015E491 /* XMPFiles_IO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120A3FD4139AAED2003E6D70 /* HostAPIAccess.cpp in Sources */,
+				120A3FD6139AAED2003E6D70 /* PluginAPIImpl.cpp in Sources */,
+				120A3FD8139AAED2003E6D70 /* PluginRegistry.cpp in Sources */,
+				120A4049139AB954003E6D70 /* PluginBase.cpp in Sources */,
+				120A41D4139ABDC9003E6D70 /* Template_Handler.cpp in Sources */,
+				0550EBFD14F687FD0015E491 /* Host_IO-Mac.cpp in Sources */,
+				0550EC0114F687FD0015E491 /* XIO.cpp in Sources */,
+				0550EC0514F687FD0015E491 /* XMPFiles_IO.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		120A4520139CE32E003E6D70 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120A4435139CD1AF003E6D70 /* Release32.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		120A4536139CE477003E6D70 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120A4434139CD1AF003E6D70 /* Debug64.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		120A453F139CE491003E6D70 /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120A4436139CD1AF003E6D70 /* Release64.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		1DEB91AF08733DA50010E9CD /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120A4433139CD1AF003E6D70 /* Debug32.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		1DEB91B308733DA50010E9CD /* Default */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1292145A139FB919003D2AF8 /* PluginTemplateCommon.xcconfig */;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		120A4521139CE32E003E6D70 /* Build configuration list for PBXNativeTarget "PluginTemplate Release32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120A4520139CE32E003E6D70 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		120A4537139CE477003E6D70 /* Build configuration list for PBXNativeTarget "PluginTemplate Debug64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120A4536139CE477003E6D70 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		120A4540139CE492003E6D70 /* Build configuration list for PBXNativeTarget "PluginTemplate Release64" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120A453F139CE491003E6D70 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "PluginTemplate Debug32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AF08733DA50010E9CD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "PluginTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B308733DA50010E9CD /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

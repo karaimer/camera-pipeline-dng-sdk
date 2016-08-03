@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(Name=77859855 @4 @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="442.43,0,87.7599999999999,25.96" CodeSchemaProperty_IsExternal="True" Label="77859855">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="(Name=AutoPtr&lt;dng_image&gt;::operator* @6 Type=&quot;dng_image &amp;&quot; @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="580.016666666667,671.52,76.5866666666666,25.96" Label="AutoPtr" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_auto_ptr.h StartLineNumber=90 StartCharacterOffset=0 EndLineNumber=90 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=RoundUp4 @6 @13 OverloadingParameters=[(@13 Name=x)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="0,951.320000000001,92.62,25.96" Label="RoundUp4" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_utils.h StartLineNumber=181 StartCharacterOffset=0 EndLineNumber=181 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=dng_gain_map::dng_gain_map @6 @10 OverloadingParameters=[(Type=&quot;dng_memory_allocator &amp;&quot; Name=allocator),(Type=&quot;const dng_point &amp;&quot; Name=points),(Type=&quot;const dng_point_real64 &amp;&quot; Name=spacing),(Type=&quot;const dng_point_real64 &amp;&quot; Name=origin),(@13 Name=planes)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="116.685,727.480000000001,113.25,25.96" Label="dng_gain_map" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_gain_map.cpp StartLineNumber=230 StartCharacterOffset=0 EndLineNumber=230 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=dng_gain_map_interpolator::Interpolate @6 Type=float @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="334.34,951.320000000001,93.94,25.96" Label="Interpolate">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="(Name=dng_gain_map_interpolator::InterpolateEntry @6 Type=float OverloadingParameters=[(@13 Name=colIndex)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="442.886666666667,1063.24,120.846666666667,25.96" Label="InterpolateEntry" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_gain_map.cpp StartLineNumber=169 StartCharacterOffset=0 EndLineNumber=169 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=dng_host::Allocator @6 Type=&quot;dng_memory_allocator &amp;&quot; @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="551.558333333333,727.48,83.5033333333334,25.96" Label="Allocator" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_host.cpp StartLineNumber=62 StartCharacterOffset=0 EndLineNumber=62 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=dng_host::Sniffer @6 Type=&quot;dng_abort_sniffer *&quot; @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="451.293333333333,727.48,70.0333333333333,25.96" Label="Sniffer">
+      <Category Ref="CallStackEntry" />
+    </Node>
+    <Node Id="(Name=dng_inplace_opcode_task::Start @6 @10 OverloadingParameters=[(@13 Name=threadCount),(Type=&quot;const dng_point &amp;&quot; Name=tileSize),(Type=&quot;dng_memory_allocator *&quot; Name=allocator),(Type=&quot;dng_abort_sniffer *&quot; Name=__formal)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="475.916666666667,783.440000000001,60.7866666666667,25.96" Label="Start" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_opcodes.cpp StartLineNumber=444 StartCharacterOffset=0 EndLineNumber=444 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=dng_inplace_opcode_task::dng_inplace_opcode_task @6 @10 OverloadingParameters=[(Type=&quot;dng_inplace_opcode &amp;&quot; Name=opcode),(Type=&quot;dng_negative &amp;&quot; Name=negative),(Type=&quot;dng_image &amp;&quot; Name=image)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="686.971666666667,671.520000000001,170.676666666667,25.96" Label="dng_inplace_opcode_task" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_opcodes.cpp StartLineNumber=410 StartCharacterOffset=0 EndLineNumber=410 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(Name=dng_linearize_image::dng_linearize_image @6 @10 OverloadingParameters=[@15,(Type=&quot;dng_linearization_info &amp;&quot; Name=info),(Type=&quot;const dng_image &amp;&quot; Name=srcImage),(Type=&quot;dng_image &amp;&quot; Name=dstImage)] @2)" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="249.636666666667,671.52,143.346666666667,25.96" Label="dng_linearize_image" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_linearization_info.cpp StartLineNumber=994 StartCharacterOffset=0 EndLineNumber=994 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@11" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="458.586666666666,951.320000000001,89.4466666666667,25.96" Label="Increment" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_gain_map.cpp StartLineNumber=71 StartCharacterOffset=0 EndLineNumber=71 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@12" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="450.223333333333,1007.28,106.173333333333,25.96" Label="ResetColumn" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_gain_map.cpp StartLineNumber=211 StartCharacterOffset=0 EndLineNumber=211 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@14" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="434.766666666666,391.72,103.086666666667,25.96" Label="dng_validate" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_validate.cpp StartLineNumber=1070 StartCharacterOffset=0 EndLineNumber=1070 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@16" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="420.365,447.68,131.89,25.96" Label="BuildStage2Image" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_negative.cpp StartLineNumber=3961 StartCharacterOffset=0 EndLineNumber=3961 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@17" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="429.133333333333,559.6,114.353333333333,25.96" Label="DoBuildStage2" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_negative.cpp StartLineNumber=3737 StartCharacterOffset=0 EndLineNumber=3737 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@19" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="423.203333333333,671.52,126.213333333333,25.96" Label="PerformAreaTask" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_host.cpp StartLineNumber=233 StartCharacterOffset=0 EndLineNumber=233 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@20" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="459.975,335.76,52.67,25.96" Label="init" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_validate.cpp StartLineNumber=1727 StartCharacterOffset=0 EndLineNumber=1727 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@21" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="455.24,279.8,62.14,25.96" Label="main" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_validate.cpp StartLineNumber=1911 StartCharacterOffset=0 EndLineNumber=1911 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@22" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="152.053333333333,895.360000000001,148.513333333333,25.96" Label="RoundUpForPixelSize" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_utils.h StartLineNumber=250 StartCharacterOffset=0 EndLineNumber=250 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@24" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="127.355,671.520000000001,91.91,25.96" Label="GetStream" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_gain_map.cpp StartLineNumber=386 StartCharacterOffset=0 EndLineNumber=386 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@25" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="246.881666666667,615.56,154.856666666667,25.96" Label="dng_opcode_GainMap" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_gain_map.cpp StartLineNumber=499 StartCharacterOffset=0 EndLineNumber=499 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@26" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="256.306666666667,559.6,136.006666666667,25.96" Label="Make_dng_opcode" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_host.cpp StartLineNumber=435 StartCharacterOffset=0 EndLineNumber=435 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@27" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="343.345,839.400000000001,75.9300000000001,25.96" Label="Process" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_opcodes.cpp StartLineNumber=503 StartCharacterOffset=0 EndLineNumber=503 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@28" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="445.053333333333,615.56,82.5133333333334,25.96" Label="Linearize" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_linearization_info.cpp StartLineNumber=1423 StartCharacterOffset=0 EndLineNumber=1423 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@29" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="585.03,615.560000000001,66.5599999999999,25.96" Label="Apply" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_opcodes.cpp StartLineNumber=563 StartCharacterOffset=0 EndLineNumber=563 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@3" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="442.32,111.92,87.9800000000001,25.96" CodeSchemaProperty_IsExternal="True" Label="756b336a">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@30" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="574.03,559.6,66.5599999999999,25.96" Label="Apply" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_opcode_list.cpp StartLineNumber=121 StartCharacterOffset=0 EndLineNumber=121 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@31" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="517.163333333333,503.64,126.293333333333,25.96" Label="ApplyOpcodeList" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_host.cpp StartLineNumber=520 StartCharacterOffset=0 EndLineNumber=520 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@32" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="258.326666666667,447.68,131.966666666667,25.96" Label="ReadStage1Image" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_negative.cpp StartLineNumber=3664 StartCharacterOffset=0 EndLineNumber=3664 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@33" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="342.076666666667,727.48,78.4666666666666,25.96" Label="Perform" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_area_task.cpp StartLineNumber=264 StartCharacterOffset=0 EndLineNumber=264 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@34" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="317.076666666667,783.440000000001,128.466666666667,25.96" Label="ProcessOnThread" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_area_task.cpp StartLineNumber=238 StartCharacterOffset=0 EndLineNumber=238 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@35" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="292.125,503.64,64.37,25.96" Label="Parse" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_opcode_list.cpp StartLineNumber=256 StartCharacterOffset=0 EndLineNumber=256 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@36" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="331.196666666667,895.360000000001,100.226666666667,25.96" Label="ProcessArea" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_gain_map.cpp StartLineNumber=533 StartCharacterOffset=0 EndLineNumber=533 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@37" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="122.905,951.320000000001,180.81,25.96" Label="dng_gain_map_interpolator" SourceLocation="(Assembly=file:///c:/adobe_rang/adobe/dng_sdk/source/dng_gain_map.cpp StartLineNumber=121 StartCharacterOffset=0 EndLineNumber=121 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@5" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="442.43,55.96,87.7599999999999,25.96" CodeSchemaProperty_IsExternal="True" Label="77859882">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="ExternalCallStackEntry" />
+    </Node>
+    <Node Id="@8" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="418.465,223.84,135.69,25.96" Label="__tmainCRTStartup" SourceLocation="(Assembly=file:///f:/dd/vctools/crt_bld/self_x86/crt/src/crt0.c StartLineNumber=277 StartCharacterOffset=0 EndLineNumber=277 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@9" Category="CodeSchema_CallStackUnresolvedMethod" Bounds="425.478333333333,167.88,121.663333333333,25.96" Label="mainCRTStartup" SourceLocation="(Assembly=file:///f:/dd/vctools/crt_bld/self_x86/crt/src/crt0.c StartLineNumber=188 StartCharacterOffset=0 EndLineNumber=188 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="(Name=77859855 @4 @2)" Target="@5" Category="CallStackDirectCall" Bounds="486.309997558594,25.9599990844727,0,21" />
+    <Link Source="@11" Target="@12" Category="CallStackDirectCall" Bounds="503.309997558594,977.280029296875,0,21" />
+    <Link Source="@12" Target="(Name=dng_gain_map_interpolator::InterpolateEntry @6 Type=float OverloadingParameters=[(@13 Name=colIndex)] @2)" Category="CallStackDirectCall" Bounds="503.309997558594,1033.23999023438,0,21" />
+    <Link Source="@14" Target="@16" Category="CallStackDirectCall" Bounds="486.309997558594,417.679992675781,0,21" />
+    <Link Source="@14" Target="@32" Category="CallStackDirectCall" Bounds="370.392883300781,417.679992675781,78.3410034179688,27.0614929199219" />
+    <Link Source="@16" Target="@17" Category="CallStackDirectCall" Bounds="486.309997558594,473.640014648438,0,76.9599609375" />
+    <Link Source="@16" Target="@31" Category="CallStackDirectCall" Bounds="508.113433837891,473.640014648438,42.6597595214844,25.3961791992188" />
+    <Link Source="@17" Target="@28" Category="CallStackDirectCall" Bounds="486.309997558594,585.559997558594,0,21" />
+    <Link Source="@19" Target="(Name=dng_host::Allocator @6 Type=&quot;dng_memory_allocator &amp;&quot; @2)" Category="CallStackDirectCall" Bounds="511.128784179688,697.47998046875,49.3872680664063,25.8291015625" />
+    <Link Source="@19" Target="(Name=dng_host::Sniffer @6 Type=&quot;dng_abort_sniffer *&quot; @2)" Category="CallStackDirectCall" Bounds="486.309997558594,697.47998046875,0,21" />
+    <Link Source="@19" Target="@33" Category="CallStackDirectCall" Bounds="413.607330322266,697.47998046875,48.3477783203125,25.76708984375" />
+    <Link Source="@20" Target="@14" Category="CallStackDirectCall" Bounds="486.309997558594,361.720001220703,0,21" />
+    <Link Source="@21" Target="@20" Category="CallStackDirectCall" Bounds="486.309997558594,305.760009765625,0,21" />
+    <Link Source="@22" Target="(Name=RoundUp4 @6 @13 OverloadingParameters=[(@13 Name=x)] @2)" Category="CallStackDirectCall" Bounds="96.6555023193359,921.320007324219,87.9032440185547,27.328125" />
+    <Link Source="@24" Target="(Name=dng_gain_map::dng_gain_map @6 @10 OverloadingParameters=[(Type=&quot;dng_memory_allocator &amp;&quot; Name=allocator),(Type=&quot;const dng_point &amp;&quot; Name=points),(Type=&quot;const dng_point_real64 &amp;&quot; Name=spacing),(Type=&quot;const dng_point_real64 &amp;&quot; Name=origin),(@13 Name=planes)] @2)" Category="CallStackDirectCall" Bounds="173.309997558594,697.47998046875,0,21" />
+    <Link Source="@25" Target="@24" Category="CallStackDirectCall" Bounds="216.773773193359,641.52001953125,72.5115661621094,26.8724975585938" />
+    <Link Source="@26" Target="@25" Category="CallStackDirectCall" Bounds="324.309997558594,585.559997558594,0,21" />
+    <Link Source="@27" Target="@22" Category="CallStackDirectCall" Bounds="270.727661132813,865.268676757813,74.8828125,27.0350952148438" />
+    <Link Source="@27" Target="@36" Category="CallStackDirectCall" Bounds="381.309997558594,865.359985351563,0,21" />
+    <Link Source="@28" Target="(Name=dng_linearize_image::dng_linearize_image @6 @10 OverloadingParameters=[@15,(Type=&quot;dng_linearization_info &amp;&quot; Name=info),(Type=&quot;const dng_image &amp;&quot; Name=srcImage),(Type=&quot;dng_image &amp;&quot; Name=dstImage)] @2)" Category="CallStackDirectCall" Bounds="368.105133056641,641.519958496094,79.9330139160156,27.109375" />
+    <Link Source="@28" Target="@19" Category="CallStackDirectCall" Bounds="486.309997558594,641.52001953125,0,21" />
+    <Link Source="@29" Target="(Name=AutoPtr&lt;dng_image&gt;::operator* @6 Type=&quot;dng_image &amp;&quot; @2)" Category="CallStackDirectCall" Bounds="618.309997558594,641.52001953125,0,21" />
+    <Link Source="@29" Target="(Name=dng_inplace_opcode_task::dng_inplace_opcode_task @6 @10 OverloadingParameters=[(Type=&quot;dng_inplace_opcode &amp;&quot; Name=opcode),(Type=&quot;dng_negative &amp;&quot; Name=negative),(Type=&quot;dng_image &amp;&quot; Name=image)] @2)" Category="CallStackDirectCall" Bounds="650.932495117188,640.394226074219,77.1981201171875,28.052001953125" />
+    <Link Source="@29" Target="@19" Category="CallStackDirectCall" Bounds="525.213745117188,641.504760742188,62.5145263671875,26.50244140625" />
+    <Link Source="@3" Target="@9" Category="CallStackDirectCall" Bounds="486.309997558594,137.880004882813,0,21" />
+    <Link Source="@30" Target="@29" Category="CallStackDirectCall" Bounds="609.861450195313,585.559997558594,4.16119384765625,21.1690063476563" />
+    <Link Source="@31" Target="@30" Category="CallStackDirectCall" Bounds="586.572692871094,529.599975585938,10.5636596679688,21.8942260742188" />
+    <Link Source="@32" Target="@35" Category="CallStackDirectCall" Bounds="324.309997558594,473.640014648438,0,21" />
+    <Link Source="@33" Target="(Name=dng_inplace_opcode_task::Start @6 @10 OverloadingParameters=[(@13 Name=threadCount),(Type=&quot;const dng_point &amp;&quot; Name=tileSize),(Type=&quot;dng_memory_allocator *&quot; Name=allocator),(Type=&quot;dng_abort_sniffer *&quot; Name=__formal)] @2)" Category="CallStackDirectCall" Bounds="410.303924560547,753.440002441406,59.2803955078125,26.5386352539063" />
+    <Link Source="@33" Target="@34" Category="CallStackDirectCall" Bounds="381.309997558594,753.440002441406,0,21" />
+    <Link Source="@34" Target="@27" Category="CallStackDirectCall" Bounds="381.309997558594,809.400024414063,0,21" />
+    <Link Source="@35" Target="@26" Category="CallStackDirectCall" Bounds="324.309997558594,529.599975585938,0,21" />
+    <Link Source="@36" Target="(Name=dng_gain_map_interpolator::Interpolate @6 Type=float @2)" Category="CallStackDirectCall" Bounds="381.309997558594,921.320007324219,0,21" />
+    <Link Source="@36" Target="@11" Category="CallStackDirectCall" Bounds="409.608062744141,921.320007324219,57.223388671875,26.2476806640625" />
+    <Link Source="@36" Target="@37" Category="CallStackDirectCall" Bounds="260.816589355469,921.320007324219,81.5255737304688,27.15576171875" />
+    <Link Source="@37" Target="@12" Category="CallStackDirectCall" Bounds="280.575897216797,977.280029296875,160.821899414063,31.0330200195313" />
+    <Link Source="@5" Target="@3" Category="CallStackIndirectCall" Bounds="486.309997558594,81.9199981689453,0,21" />
+    <Link Source="@8" Target="@21" Category="CallStackDirectCall" Bounds="486.309997558594,249.800003051758,0,20.9999847412109" />
+    <Link Source="@9" Target="@8" Category="CallStackDirectCall" Bounds="486.309997558594,193.839996337891,0,21" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
+    <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
+    <Category Id="CallStackIndirectCall" Label="Call Stack indirect call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack indirect call" OutgoingActionLabel="Call Stack indirect call" />
+    <Category Id="CodeSchema_CallStackUnresolvedMethod" Label="Unresolved Method" CanBeDataDriven="True" DefaultAction="Microsoft.AllOutBoundLinks" IsProviderRoot="False" NavigationActionLabel="Unresolved Method" />
+    <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
+    <Category Id="ExternalCallStackEntry" Label="External Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="External Call Stack Entry" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="Is External" Description="Flag indicating whether this node is considered external" DataType="System.Boolean" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="IsUnresolved" Label="Is Unresolved" ValueType="System.String" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=kernel32.dll" />
+    <Alias n="2" Id="IsUnresolved=True" />
+    <Alias n="3" Id="(Name=756b336a @1 @2)" />
+    <Alias n="4" Uri="Assembly=ntdll.dll" />
+    <Alias n="5" Id="(Name=77859882 @4 @2)" />
+    <Alias n="6" Uri="Assembly=dng_validate.exe" />
+    <Alias n="7" Id="Type=int" />
+    <Alias n="8" Id="(Name=__tmainCRTStartup @6 @7 @2)" />
+    <Alias n="9" Id="(Name=mainCRTStartup @6 @7 @2)" />
+    <Alias n="10" Id="Type=void" />
+    <Alias n="11" Id="(Name=dng_gain_map_interpolator::Increment @6 @10 @2)" />
+    <Alias n="12" Id="(Name=dng_gain_map_interpolator::ResetColumn @6 @10 @2)" />
+    <Alias n="13" Id="Type=&quot;unsigned int&quot;" />
+    <Alias n="14" Id="(Name=dng_validate @6 @7 OverloadingParameters=[(Type=&quot;const char *&quot; Name=filename)] @2)" />
+    <Alias n="15" Id="(Type=&quot;dng_host &amp;&quot; Name=host)" />
+    <Alias n="16" Id="(Name=dng_negative::BuildStage2Image @6 @10 OverloadingParameters=[@15] @2)" />
+    <Alias n="17" Id="(Name=dng_negative::DoBuildStage2 @6 @10 OverloadingParameters=[@15] @2)" />
+    <Alias n="18" Id="Type=&quot;const dng_rect &amp;&quot;" />
+    <Alias n="19" Id="(Name=dng_host::PerformAreaTask @6 @10 OverloadingParameters=[(Type=&quot;dng_area_task &amp;&quot; Name=task),(@18 Name=area)] @2)" />
+    <Alias n="20" Id="(Name=init @6 @7 OverloadingParameters=[(@7 Name=argc),(Type=&quot;char * *&quot; Name=argv)] @2)" />
+    <Alias n="21" Id="(Name=main @6 @7 OverloadingParameters=[(@7 Name=argc),(Type=&quot;char * *&quot; Name=argv)] @2)" />
+    <Alias n="22" Id="(Name=RoundUpForPixelSize @6 @13 OverloadingParameters=[(@13 Name=x),(@13 Name=pixelSize)] @2)" />
+    <Alias n="23" Id="(Type=&quot;dng_stream &amp;&quot; Name=stream)" />
+    <Alias n="24" Id="(Name=dng_gain_map::GetStream @6 Type=&quot;dng_gain_map *&quot; OverloadingParameters=[@15,@23] @2)" />
+    <Alias n="25" Id="(Name=dng_opcode_GainMap::dng_opcode_GainMap @6 @10 OverloadingParameters=[@15,@23] @2)" />
+    <Alias n="26" Id="(Name=dng_host::Make_dng_opcode @6 Type=&quot;dng_opcode *&quot; OverloadingParameters=[(@13 Name=opcodeID),@23] @2)" />
+    <Alias n="27" Id="(Name=dng_inplace_opcode_task::Process @6 @10 OverloadingParameters=[(@13 Name=threadIndex),(@18 Name=tile),(Type=&quot;dng_abort_sniffer *&quot; Name=__formal)] @2)" />
+    <Alias n="28" Id="(Name=dng_linearization_info::Linearize @6 @10 OverloadingParameters=[@15,(Type=&quot;const dng_image &amp;&quot; Name=srcImage),(Type=&quot;dng_image &amp;&quot; Name=dstImage)] @2)" />
+    <Alias n="29" Id="(Name=dng_inplace_opcode::Apply @6 @10 OverloadingParameters=[@15,(Type=&quot;dng_negative &amp;&quot; Name=negative),(Type=&quot;AutoPtr&lt;dng_image&gt; &amp;&quot; Name=image)] @2)" />
+    <Alias n="30" Id="(Name=dng_opcode_list::Apply @6 @10 OverloadingParameters=[@15,(Type=&quot;dng_negative &amp;&quot; Name=negative),(Type=&quot;AutoPtr&lt;dng_image&gt; &amp;&quot; Name=image)] @2)" />
+    <Alias n="31" Id="(Name=dng_host::ApplyOpcodeList @6 @10 OverloadingParameters=[(Type=&quot;dng_opcode_list &amp;&quot; Name=list),(Type=&quot;dng_negative &amp;&quot; Name=negative),(Type=&quot;AutoPtr&lt;dng_image&gt; &amp;&quot; Name=image)] @2)" />
+    <Alias n="32" Id="(Name=dng_negative::ReadStage1Image @6 @10 OverloadingParameters=[@15,@23,(Type=&quot;dng_info &amp;&quot; Name=info)] @2)" />
+    <Alias n="33" Id="(Name=dng_area_task::Perform @6 @10 OverloadingParameters=[(Type=&quot;dng_area_task &amp;&quot; Name=task),(@18 Name=area),(Type=&quot;dng_memory_allocator *&quot; Name=allocator),(Type=&quot;dng_abort_sniffer *&quot; Name=sniffer)] @2)" />
+    <Alias n="34" Id="(Name=dng_area_task::ProcessOnThread @6 @10 OverloadingParameters=[(@13 Name=threadIndex),(@18 Name=area),(Type=&quot;const dng_point &amp;&quot; Name=tileSize),(Type=&quot;dng_abort_sniffer *&quot; Name=sniffer)] @2)" />
+    <Alias n="35" Id="(Name=dng_opcode_list::Parse @6 @10 OverloadingParameters=[@15,@23,(@13 Name=byteCount),(Type=&quot;unsigned __int64&quot; Name=streamOffset)] @2)" />
+    <Alias n="36" Id="(Name=dng_opcode_GainMap::ProcessArea @6 @10 OverloadingParameters=[(Type=&quot;dng_negative &amp;&quot; Name=__formal),(@13 Name=__formal),(Type=&quot;dng_pixel_buffer &amp;&quot; Name=buffer),(@18 Name=dstArea),(@18 Name=imageBounds)] @2)" />
+    <Alias n="37" Id="(Name=dng_gain_map_interpolator::dng_gain_map_interpolator @6 @10 OverloadingParameters=[(Type=&quot;const dng_gain_map &amp;&quot; Name=map),(@18 Name=mapBounds),(@7 Name=row),(@7 Name=column),(@13 Name=plane)] @2)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack Node" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External Call Stack Entry" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+  </Styles>
+</DirectedGraph>

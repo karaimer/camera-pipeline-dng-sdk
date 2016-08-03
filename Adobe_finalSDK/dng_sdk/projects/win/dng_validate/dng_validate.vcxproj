@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Validate Debug|Win32">
+      <Configuration>Validate Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Validate Debug|x64">
+      <Configuration>Validate Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Validate Release|Win32">
+      <Configuration>Validate Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Validate Release|x64">
+      <Configuration>Validate Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5BBFC43E-3ED8-4D35-9083-53A103BE17FB}</ProjectGuid>
+    <RootNamespace>dng_validate</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'">..\..\..\targets\win\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'">..\..\..\targets\win\debug64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'">..\..\..\targets\win\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'">..\..\..\targets\win\release64\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Validate Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../libjpeg;../../../../xmp_sdk/public/include;../../../../xmp_sdk/third-party/zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;WIN32;_DEBUG;_CONSOLE;qDNGValidateTarget=1;qMacOS=0;qWinOS=1;_SECURE_SCL=1;_HAS_ITERATOR_DEBUGGING = 1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Link>
+      <OutputFile>$(OutDir)dng_validate.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)dng_validate.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Validate Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../libjpeg;../../../../xmp_sdk/public/include;../../../../xmp_sdk/third-party/zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;WIN32;WIN64;_DEBUG;_CONSOLE;qDNGValidateTarget=1;qMacOS=0;qWinOS=1;_SECURE_SCL=1;_HAS_ITERATOR_DEBUGGING = 1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Link>
+      <OutputFile>$(OutDir)dng_validate.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)dng_validate.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Validate Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>../../../../libjpeg;../../../../xmp_sdk/public/include;../../../../xmp_sdk/third-party/zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;WIN32;NDEBUG;_CONSOLE;qDNGValidateTarget=1;qMacOS=0;qWinOS=1;_SECURE_SCL=0;_HAS_ITERATOR_DEBUGGING = 0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Link>
+      <OutputFile>$(OutDir)dng_validate.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Validate Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>../../../../libjpeg;../../../../xmp_sdk/public/include;../../../../xmp_sdk/third-party/zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;WIN32;WIN64;NDEBUG;_CONSOLE;qDNGValidateTarget=1;qMacOS=0;qWinOS=1;_SECURE_SCL=0;_HAS_ITERATOR_DEBUGGING = 0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <Link>
+      <OutputFile>$(OutDir)dng_validate.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\libjpeg\jaricom.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcapimin.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcapistd.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcarith.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jccoefct.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jccolor.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcdctmgr.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jchuff.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcinit.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcmainct.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcmarker.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcmaster.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcomapi.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcparam.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcprepct.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jcsample.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jctrans.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdapimin.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdapistd.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdarith.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdatadst.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdatasrc.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdcoefct.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdcolor.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jddctmgr.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdhuff.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdinput.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdmainct.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdmarker.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdmaster.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdmerge.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdpostct.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdsample.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jdtrans.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jerror.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jfdctflt.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jfdctfst.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jfdctint.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jidctflt.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jidctfst.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jidctint.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jmemmgr.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jmemnobs.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jquant1.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jquant2.c" />
+    <ClCompile Include="..\..\..\..\libjpeg\jutils.c" />
+    <ClCompile Include="..\..\..\source\dng_1d_function.cpp" />
+    <ClCompile Include="..\..\..\source\dng_1d_table.cpp" />
+    <ClCompile Include="..\..\..\source\dng_abort_sniffer.cpp" />
+    <ClCompile Include="..\..\..\source\dng_area_task.cpp" />
+    <ClCompile Include="..\..\..\source\dng_bad_pixels.cpp" />
+    <ClCompile Include="..\..\..\source\dng_bottlenecks.cpp" />
+    <ClCompile Include="..\..\..\source\dng_camera_profile.cpp" />
+    <ClCompile Include="..\..\..\source\dng_color_space.cpp" />
+    <ClCompile Include="..\..\..\source\dng_color_spec.cpp" />
+    <ClCompile Include="..\..\..\source\dng_date_time.cpp" />
+    <ClCompile Include="..\..\..\source\dng_exceptions.cpp" />
+    <ClCompile Include="..\..\..\source\dng_exif.cpp" />
+    <ClCompile Include="..\..\..\source\dng_file_stream.cpp" />
+    <ClCompile Include="..\..\..\source\dng_filter_task.cpp" />
+    <ClCompile Include="..\..\..\source\dng_fingerprint.cpp" />
+    <ClCompile Include="..\..\..\source\dng_gain_map.cpp" />
+    <ClCompile Include="..\..\..\source\dng_globals.cpp" />
+    <ClCompile Include="..\..\..\source\dng_host.cpp" />
+    <ClCompile Include="..\..\..\source\dng_hue_sat_map.cpp" />
+    <ClCompile Include="..\..\..\source\dng_ifd.cpp" />
+    <ClCompile Include="..\..\..\source\dng_image.cpp" />
+    <ClCompile Include="..\..\..\source\dng_image_writer.cpp" />
+    <ClCompile Include="..\..\..\source\dng_info.cpp" />
+    <ClCompile Include="..\..\..\source\dng_iptc.cpp" />
+    <ClCompile Include="..\..\..\source\dng_jpeg_image.cpp" />
+    <ClCompile Include="..\..\..\source\dng_lens_correction.cpp" />
+    <ClCompile Include="..\..\..\source\dng_linearization_info.cpp" />
+    <ClCompile Include="..\..\..\source\dng_lossless_jpeg.cpp" />
+    <ClCompile Include="..\..\..\source\dng_matrix.cpp" />
+    <ClCompile Include="..\..\..\source\dng_memory.cpp" />
+    <ClCompile Include="..\..\..\source\dng_memory_stream.cpp" />
+    <ClCompile Include="..\..\..\source\dng_misc_opcodes.cpp" />
+    <ClCompile Include="..\..\..\source\dng_mosaic_info.cpp" />
+    <ClCompile Include="..\..\..\source\dng_mutex.cpp" />
+    <ClCompile Include="..\..\..\source\dng_negative.cpp" />
+    <ClCompile Include="..\..\..\source\dng_opcodes.cpp" />
+    <ClCompile Include="..\..\..\source\dng_opcode_list.cpp" />
+    <ClCompile Include="..\..\..\source\dng_orientation.cpp" />
+    <ClCompile Include="..\..\..\source\dng_parse_utils.cpp" />
+    <ClCompile Include="..\..\..\source\dng_pixel_buffer.cpp" />
+    <ClCompile Include="..\..\..\source\dng_point.cpp" />
+    <ClCompile Include="..\..\..\source\dng_preview.cpp" />
+    <ClCompile Include="..\..\..\source\dng_pthread.cpp" />
+    <ClCompile Include="..\..\..\source\dng_rational.cpp" />
+    <ClCompile Include="..\..\..\source\dng_read_image.cpp" />
+    <ClCompile Include="..\..\..\source\dng_rect.cpp" />
+    <ClCompile Include="..\..\..\source\dng_reference.cpp" />
+    <ClCompile Include="..\..\..\source\dng_ref_counted_block.cpp" />
+    <ClCompile Include="..\..\..\source\dng_render.cpp" />
+    <ClCompile Include="..\..\..\source\dng_resample.cpp" />
+    <ClCompile Include="..\..\..\source\dng_shared.cpp" />
+    <ClCompile Include="..\..\..\source\dng_simple_image.cpp" />
+    <ClCompile Include="..\..\..\source\dng_spline.cpp" />
+    <ClCompile Include="..\..\..\source\dng_stream.cpp" />
+    <ClCompile Include="..\..\..\source\dng_string.cpp" />
+    <ClCompile Include="..\..\..\source\dng_string_list.cpp" />
+    <ClCompile Include="..\..\..\source\dng_tag_types.cpp" />
+    <ClCompile Include="..\..\..\source\dng_temperature.cpp" />
+    <ClCompile Include="..\..\..\source\dng_tile_iterator.cpp" />
+    <ClCompile Include="..\..\..\source\dng_tone_curve.cpp" />
+    <ClCompile Include="..\..\..\source\dng_utils.cpp" />
+    <ClCompile Include="..\..\..\source\dng_validate.cpp" />
+    <ClCompile Include="..\..\..\source\dng_xmp.cpp" />
+    <ClCompile Include="..\..\..\source\dng_xmp_sdk.cpp" />
+    <ClCompile Include="..\..\..\source\dng_xy_coord.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\xmp_sdk\build\vc\XMPCore.vcxproj">
+      <Project>{c5bb1536-3776-4474-861d-b5923c610fe4}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\..\xmp_sdk\build\vc\XMPFiles.vcxproj">
+      <Project>{b9a2e1f1-4e5c-49ac-b052-604cae21f56e}</Project>
+      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\libjpeg\jconfig.h" />
+    <ClInclude Include="..\..\..\..\libjpeg\jdct.h" />
+    <ClInclude Include="..\..\..\..\libjpeg\jerror.h" />
+    <ClInclude Include="..\..\..\..\libjpeg\jpeglib.h" />
+    <ClInclude Include="..\..\..\source\dng_1d_function.h" />
+    <ClInclude Include="..\..\..\source\dng_1d_table.h" />
+    <ClInclude Include="..\..\..\source\dng_abort_sniffer.h" />
+    <ClInclude Include="..\..\..\source\dng_area_task.h" />
+    <ClInclude Include="..\..\..\source\dng_assertions.h" />
+    <ClInclude Include="..\..\..\source\dng_auto_ptr.h" />
+    <ClInclude Include="..\..\..\source\dng_bad_pixels.h" />
+    <ClInclude Include="..\..\..\source\dng_bottlenecks.h" />
+    <ClInclude Include="..\..\..\source\dng_camera_profile.h" />
+    <ClInclude Include="..\..\..\source\dng_classes.h" />
+    <ClInclude Include="..\..\..\source\dng_color_space.h" />
+    <ClInclude Include="..\..\..\source\dng_color_spec.h" />
+    <ClInclude Include="..\..\..\source\dng_date_time.h" />
+    <ClInclude Include="..\..\..\source\dng_errors.h" />
+    <ClInclude Include="..\..\..\source\dng_exceptions.h" />
+    <ClInclude Include="..\..\..\source\dng_exif.h" />
+    <ClInclude Include="..\..\..\source\dng_fast_module.h" />
+    <ClInclude Include="..\..\..\source\dng_file_stream.h" />
+    <ClInclude Include="..\..\..\source\dng_filter_task.h" />
+    <ClInclude Include="..\..\..\source\dng_fingerprint.h" />
+    <ClInclude Include="..\..\..\source\dng_flags.h" />
+    <ClInclude Include="..\..\..\source\dng_gain_map.h" />
+    <ClInclude Include="..\..\..\source\dng_globals.h" />
+    <ClInclude Include="..\..\..\source\dng_host.h" />
+    <ClInclude Include="..\..\..\source\dng_hue_sat_map.h" />
+    <ClInclude Include="..\..\..\source\dng_ifd.h" />
+    <ClInclude Include="..\..\..\source\dng_image.h" />
+    <ClInclude Include="..\..\..\source\dng_image_writer.h" />
+    <ClInclude Include="..\..\..\source\dng_info.h" />
+    <ClInclude Include="..\..\..\source\dng_iptc.h" />
+    <ClInclude Include="..\..\..\source\dng_jpeg_image.h" />
+    <ClInclude Include="..\..\..\source\dng_lens_correction.h" />
+    <ClInclude Include="..\..\..\source\dng_linearization_info.h" />
+    <ClInclude Include="..\..\..\source\dng_lossless_jpeg.h" />
+    <ClInclude Include="..\..\..\source\dng_matrix.h" />
+    <ClInclude Include="..\..\..\source\dng_memory.h" />
+    <ClInclude Include="..\..\..\source\dng_memory_stream.h" />
+    <ClInclude Include="..\..\..\source\dng_misc_opcodes.h" />
+    <ClInclude Include="..\..\..\source\dng_mosaic_info.h" />
+    <ClInclude Include="..\..\..\source\dng_mutex.h" />
+    <ClInclude Include="..\..\..\source\dng_negative.h" />
+    <ClInclude Include="..\..\..\source\dng_opcodes.h" />
+    <ClInclude Include="..\..\..\source\dng_opcode_list.h" />
+    <ClInclude Include="..\..\..\source\dng_orientation.h" />
+    <ClInclude Include="..\..\..\source\dng_parse_utils.h" />
+    <ClInclude Include="..\..\..\source\dng_pixel_buffer.h" />
+    <ClInclude Include="..\..\..\source\dng_point.h" />
+    <ClInclude Include="..\..\..\source\dng_preview.h" />
+    <ClInclude Include="..\..\..\source\dng_pthread.h" />
+    <ClInclude Include="..\..\..\source\dng_rational.h" />
+    <ClInclude Include="..\..\..\source\dng_read_image.h" />
+    <ClInclude Include="..\..\..\source\dng_rect.h" />
+    <ClInclude Include="..\..\..\source\dng_reference.h" />
+    <ClInclude Include="..\..\..\source\dng_ref_counted_block.h" />
+    <ClInclude Include="..\..\..\source\dng_render.h" />
+    <ClInclude Include="..\..\..\source\dng_resample.h" />
+    <ClInclude Include="..\..\..\source\dng_sdk_limits.h" />
+    <ClInclude Include="..\..\..\source\dng_shared.h" />
+    <ClInclude Include="..\..\..\source\dng_simple_image.h" />
+    <ClInclude Include="..\..\..\source\dng_spline.h" />
+    <ClInclude Include="..\..\..\source\dng_stream.h" />
+    <ClInclude Include="..\..\..\source\dng_string.h" />
+    <ClInclude Include="..\..\..\source\dng_string_list.h" />
+    <ClInclude Include="..\..\..\source\dng_tag_codes.h" />
+    <ClInclude Include="..\..\..\source\dng_tag_types.h" />
+    <ClInclude Include="..\..\..\source\dng_tag_values.h" />
+    <ClInclude Include="..\..\..\source\dng_temperature.h" />
+    <ClInclude Include="..\..\..\source\dng_tile_iterator.h" />
+    <ClInclude Include="..\..\..\source\dng_tone_curve.h" />
+    <ClInclude Include="..\..\..\source\dng_types.h" />
+    <ClInclude Include="..\..\..\source\dng_utils.h" />
+    <ClInclude Include="..\..\..\source\dng_xmp.h" />
+    <ClInclude Include="..\..\..\source\dng_xmp_sdk.h" />
+    <ClInclude Include="..\..\..\source\dng_xy_coord.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
