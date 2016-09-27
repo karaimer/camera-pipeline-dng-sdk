@@ -1,102 +1,20 @@
-﻿Build started 7/23/2016 9:27:38 AM.
-     1>Project "C:\Adobe_Rang\Adobe_finalSDK\xmp_sdk\build\vc\XMPFiles.vcxproj" on node 3 (Build target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Adobe_Rang\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPFiles.lib) does not match the Library's OutputFile property value (C:\Adobe_Rang\Adobe_finalSDK\xmp_sdk\public\libraries\windows\debug\XMPFilesStatic.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+﻿Build started 26/09/2016 8:28:07 PM.
+     1>Project "C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\build\vc\XMPFiles.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "..\..\intermediate\XMPFiles\windows\debug\XMPFiles.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPFiles.lib) does not match the Library's OutputFile property value (C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\public\libraries\windows\debug\XMPFilesStatic.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(XMPFiles) does not match the Library's OutputFile property value (XMPFilesStatic). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
-     1>Lib:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\public\libraries\windows\debug\XMPFilesStatic.lib" /NOLOGO "..\..\intermediate\windows\debug\Host_IO-Win.obj"
-         ..\..\intermediate\windows\debug\UnicodeConversions.obj
-         ..\..\intermediate\windows\debug\XIO.obj
-         ..\..\intermediate\windows\debug\XML_Node.obj
-         ..\..\intermediate\windows\debug\XMPFiles_IO.obj
-         ..\..\intermediate\windows\debug\XMP_LibUtils.obj
-         ..\..\intermediate\windows\debug\adler32.obj
-         ..\..\intermediate\windows\debug\compress.obj
-         ..\..\intermediate\windows\debug\crc32.obj
-         ..\..\intermediate\windows\debug\deflate.obj
-         ..\..\intermediate\windows\debug\infback.obj
-         ..\..\intermediate\windows\debug\inffast.obj
-         ..\..\intermediate\windows\debug\inflate.obj
-         ..\..\intermediate\windows\debug\inftrees.obj
-         ..\..\intermediate\windows\debug\trees.obj
-         ..\..\intermediate\windows\debug\uncompr.obj
-         ..\..\intermediate\windows\debug\zutil.obj
-         ..\..\intermediate\windows\debug\MD5.obj
-         ..\..\intermediate\windows\debug\AIFF_Handler.obj
-         ..\..\intermediate\windows\debug\ASF_Handler.obj
-         ..\..\intermediate\windows\debug\AVCHD_Handler.obj
-         ..\..\intermediate\windows\debug\Basic_Handler.obj
-         ..\..\intermediate\windows\debug\FLV_Handler.obj
-         ..\..\intermediate\windows\debug\InDesign_Handler.obj
-         ..\..\intermediate\windows\debug\JPEG_Handler.obj
-         ..\..\intermediate\windows\debug\MP3_Handler.obj
-         ..\..\intermediate\windows\debug\MPEG2_Handler.obj
-         ..\..\intermediate\windows\debug\MPEG4_Handler.obj
-         ..\..\intermediate\windows\debug\P2_Handler.obj
-         ..\..\intermediate\windows\debug\PNG_Handler.obj
-         ..\..\intermediate\windows\debug\PostScript_Handler.obj
-         ..\..\intermediate\windows\debug\PSD_Handler.obj
-         ..\..\intermediate\windows\debug\RIFF_Handler.obj
-         ..\..\intermediate\windows\debug\Scanner_Handler.obj
-         ..\..\intermediate\windows\debug\SonyHDV_Handler.obj
-         ..\..\intermediate\windows\debug\SWF_Handler.obj
-         ..\..\intermediate\windows\debug\TIFF_Handler.obj
-         ..\..\intermediate\windows\debug\Trivial_Handler.obj
-         ..\..\intermediate\windows\debug\UCF_Handler.obj
-         ..\..\intermediate\windows\debug\WAVE_Handler.obj
-         ..\..\intermediate\windows\debug\XDCAMEX_Handler.obj
-         ..\..\intermediate\windows\debug\XDCAM_Handler.obj
-         ..\..\intermediate\windows\debug\AIFFBehavior.obj
-         ..\..\intermediate\windows\debug\AIFFMetadata.obj
-         ..\..\intermediate\windows\debug\AIFFReconcile.obj
-         ..\..\intermediate\windows\debug\ASF_Support.obj
-         ..\..\intermediate\windows\debug\ID3_Support.obj
-         ..\..\intermediate\windows\debug\Chunk.obj
-         ..\..\intermediate\windows\debug\ChunkController.obj
-         ..\..\intermediate\windows\debug\ChunkPath.obj
-         ..\..\intermediate\windows\debug\IChunkBehavior.obj
-         ..\..\intermediate\windows\debug\IPTC_Support.obj
-         ..\..\intermediate\windows\debug\ISOBaseMedia_Support.obj
-         ..\..\intermediate\windows\debug\MOOV_Support.obj
-         ..\..\intermediate\windows\debug\PNG_Support.obj
-         ..\..\intermediate\windows\debug\PSIR_FileWriter.obj
-         ..\..\intermediate\windows\debug\PSIR_MemoryReader.obj
-         ..\..\intermediate\windows\debug\QuickTime_Support.obj
-         ..\..\intermediate\windows\debug\ReconcileIPTC.obj
-         ..\..\intermediate\windows\debug\ReconcileLegacy.obj
-         ..\..\intermediate\windows\debug\ReconcileTIFF.obj
-         ..\..\intermediate\windows\debug\Reconcile_Impl.obj
-         ..\..\intermediate\windows\debug\RIFF.obj
-         ..\..\intermediate\windows\debug\RIFF_Support.obj
-         ..\..\intermediate\windows\debug\SWF_Support.obj
-         ..\..\intermediate\windows\debug\TIFF_FileWriter.obj
-         ..\..\intermediate\windows\debug\TIFF_MemoryReader.obj
-         ..\..\intermediate\windows\debug\TIFF_Support.obj
-         ..\..\intermediate\windows\debug\BEXTMetadata.obj
-         ..\..\intermediate\windows\debug\CartMetadata.obj
-         ..\..\intermediate\windows\debug\Cr8rMetadata.obj
-         ..\..\intermediate\windows\debug\DISPMetadata.obj
-         ..\..\intermediate\windows\debug\INFOMetadata.obj
-         ..\..\intermediate\windows\debug\PrmLMetadata.obj
-         ..\..\intermediate\windows\debug\WAVEBehavior.obj
-         ..\..\intermediate\windows\debug\WAVEReconcile.obj
-         ..\..\intermediate\windows\debug\XDCAM_Support.obj
-         ..\..\intermediate\windows\debug\XMPScanner.obj
-         ..\..\intermediate\windows\debug\HandlerRegistry.obj
-         ..\..\intermediate\windows\debug\IMetadata.obj
-         ..\..\intermediate\windows\debug\IReconcile.obj
-         ..\..\intermediate\windows\debug\MetadataSet.obj
-         ..\..\intermediate\windows\debug\FileHandlerInstance.obj
-         ..\..\intermediate\windows\debug\HostAPIImpl.obj
-         ..\..\intermediate\windows\debug\Module.obj
-         ..\..\intermediate\windows\debug\OS_Utils_WIN.obj
-         ..\..\intermediate\windows\debug\PluginManager.obj
-         ..\..\intermediate\windows\debug\XMPAtoms.obj
-         ..\..\intermediate\windows\debug\WXMPFiles.obj
-         ..\..\intermediate\windows\debug\XMPFiles.obj
-         ..\..\intermediate\windows\debug\XMPFiles_Impl.obj
-         XMPFiles.vcxproj -> C:\Adobe_Rang\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPFiles.lib
-     1>Done Building Project "C:\Adobe_Rang\Adobe_finalSDK\xmp_sdk\build\vc\XMPFiles.vcxproj" (Build target(s)).
+       Lib:
+         All outputs are up-to-date.
+         XMPFiles.vcxproj -> C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPFiles.lib
+       FinalizeBuildStatus:
+         Deleting file "..\..\intermediate\XMPFiles\windows\debug\XMPFiles.unsuccessfulbuild".
+         Touching "..\..\intermediate\XMPFiles\windows\debug\XMPFiles.lastbuildstate".
+     1>Done Building Project "C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\build\vc\XMPFiles.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.18
+Time Elapsed 00:00:00.09

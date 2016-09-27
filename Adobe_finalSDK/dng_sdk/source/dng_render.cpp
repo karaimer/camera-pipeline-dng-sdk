@@ -3909,16 +3909,18 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 	rwSettingsFile.close();
 
 	if(rw_settings == 0){
-		fs1.open (save_directory + "\\r.txt", std::fstream::out | std::fstream::trunc );
-		fs2.open (save_directory + "\\g.txt", std::fstream::out | std::fstream::trunc );
-		fs3.open (save_directory + "\\b.txt", std::fstream::out | std::fstream::trunc );	
+		fs1.open (save_directory + "\\r.txt", std::ios::out | std::ios::binary );
+		fs2.open (save_directory + "\\g.txt", std::ios::out | std::ios::binary );
+		fs3.open (save_directory + "\\b.txt", std::ios::out | std::ios::binary );	
 	}
 
 	if(rw_settings == 1){
-		fs1.open (save_directory + "\\r.txt", std::fstream::in);
-		fs2.open (save_directory + "\\g.txt", std::fstream::in);
-		fs3.open (save_directory + "\\b.txt", std::fstream::in);
+		fs1.open (save_directory + "\\r.txt", std::ios::in | std::ios::binary);
+		fs2.open (save_directory + "\\g.txt", std::ios::in | std::ios::binary);
+		fs3.open (save_directory + "\\b.txt", std::ios::in | std::ios::binary);
 	}
+
+	std::cout<<"Current image size: "<<srcCols<<" x "<<srcArea.H ()<<"\n";
 
 	//int stage_settings = 0;
 
@@ -3964,18 +3966,20 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 					// hakki commented out edited
 					// This part writes Stage4 image to file. 
 					if(rw_settings == 0){
+						double* pDblA = (double*)malloc(srcCols * sizeof(double));
+						double* pDblB = (double*)malloc(srcCols * sizeof(double));
+						double* pDblC = (double*)malloc(srcCols * sizeof(double));
+
 						for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-							if(tPtrRindex == srcCols-1 ){
-								fs1 << sPtrA[tPtrRindex] << "\n";																					
-								fs2 << sPtrB[tPtrRindex] << "\n";																					
-								fs3 << sPtrC[tPtrRindex] << "\n";																					
-							}else{
-								fs1 << sPtrA[tPtrRindex] << " ";															
-								fs2 << sPtrB[tPtrRindex] << " ";															
-								fs3 << sPtrC[tPtrRindex] << " ";															
-							}
+								pDblA[tPtrRindex] =  (double)sPtrA[tPtrRindex] ;																					
+								pDblB[tPtrRindex] =  (double)sPtrB[tPtrRindex] ;																					
+								pDblC[tPtrRindex] =  (double)sPtrC[tPtrRindex] ;																					
+							
 						}//end for 
 
+						fs1.write((char*)pDblA, srcCols*sizeof(double));
+						fs2.write((char*)pDblB, srcCols*sizeof(double));
+						fs3.write((char*)pDblC, srcCols*sizeof(double));
 					}//end if(rw_settings == 0)
 				} // end if(stage_settings == 4) 
 				
@@ -3988,10 +3992,18 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 						// hakki commented out edited
 						// This part reads Stage4 image from file. 
 						if(rw_settings == 1){
+							double* pDblA = (double*)malloc(srcCols * sizeof(double));
+							double* pDblB = (double*)malloc(srcCols * sizeof(double));
+							double* pDblC = (double*)malloc(srcCols * sizeof(double));
+							fs1.read((char*)pDblA, srcCols*sizeof(double));
+							fs2.read((char*)pDblB, srcCols*sizeof(double));
+							fs3.read((char*)pDblC, srcCols*sizeof(double));
+								
 							for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-								fs1 >> tPtrR[tPtrRindex];																					
-								fs2 >> tPtrG[tPtrRindex] ;																					
-								fs3 >> tPtrB[tPtrRindex] ;																					
+
+								tPtrR[tPtrRindex] = (real32)pDblA[tPtrRindex];																					
+								tPtrG[tPtrRindex] = (real32)pDblB[tPtrRindex];																					
+								tPtrB[tPtrRindex] = (real32)pDblC[tPtrRindex];																					
 							}//end for 
 
 							DoBaselineABCtoRGB (tPtrR,
@@ -4069,17 +4081,20 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 						// hakki commented out edited
 						// This part writes Stage5 image to file. 
 						if(rw_settings == 0){
+							double* pDblA = (double*)malloc(srcCols * sizeof(double));
+							double* pDblB = (double*)malloc(srcCols * sizeof(double));
+							double* pDblC = (double*)malloc(srcCols * sizeof(double));
+
 							for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-								if(tPtrRindex == srcCols-1 ){
-									fs1 << tPtrR[tPtrRindex] << "\n";																					
-									fs2 << tPtrG[tPtrRindex] << "\n";																					
-									fs3 << tPtrB[tPtrRindex] << "\n";																					
-								}else{
-									fs1 << tPtrR[tPtrRindex] << " ";															
-									fs2 << tPtrG[tPtrRindex] << " ";															
-									fs3 << tPtrB[tPtrRindex] << " ";															
-								}
+									pDblA[tPtrRindex] =  (double)tPtrR[tPtrRindex] ;																					
+									pDblB[tPtrRindex] =  (double)tPtrG[tPtrRindex] ;																					
+									pDblC[tPtrRindex] =  (double)tPtrB[tPtrRindex] ;																					
+							
 							}//end for 
+
+							fs1.write((char*)pDblA, srcCols*sizeof(double));
+							fs2.write((char*)pDblB, srcCols*sizeof(double));
+							fs3.write((char*)pDblC, srcCols*sizeof(double));
 
 						}//end if(rw_settings == 0)
 					} // end if(stage_settings == 5) 
@@ -4093,11 +4108,19 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 						// hakki commented out edited
 						// This part reads Stage5 image from file. 
 						if(rw_settings == 1){
-
+	
+							double* pDblA = (double*)malloc(srcCols * sizeof(double));
+							double* pDblB = (double*)malloc(srcCols * sizeof(double));
+							double* pDblC = (double*)malloc(srcCols * sizeof(double));
+							fs1.read((char*)pDblA, srcCols*sizeof(double));
+							fs2.read((char*)pDblB, srcCols*sizeof(double));
+							fs3.read((char*)pDblC, srcCols*sizeof(double));
+								
 							for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-								fs1 >> tPtrR[tPtrRindex];																					
-								fs2 >> tPtrG[tPtrRindex] ;																					
-								fs3 >> tPtrB[tPtrRindex] ;																					
+
+								tPtrR[tPtrRindex] = (real32)pDblA[tPtrRindex];																					
+								tPtrG[tPtrRindex] = (real32)pDblB[tPtrRindex];																					
+								tPtrB[tPtrRindex] = (real32)pDblC[tPtrRindex];																					
 							}//end for 
 
 						}//end if(rw_settings == 1)
@@ -4122,17 +4145,20 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 							// hakki commented out edited
 							// This part writes Stage6 image to file. 
 							if(rw_settings == 0){
+								double* pDblA = (double*)malloc(srcCols * sizeof(double));
+								double* pDblB = (double*)malloc(srcCols * sizeof(double));
+								double* pDblC = (double*)malloc(srcCols * sizeof(double));
+
 								for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-									if(tPtrRindex == srcCols-1 ){
-										fs1 << tPtrR[tPtrRindex] << "\n";																					
-										fs2 << tPtrG[tPtrRindex] << "\n";																					
-										fs3 << tPtrB[tPtrRindex] << "\n";																					
-									}else{
-										fs1 << tPtrR[tPtrRindex] << " ";															
-										fs2 << tPtrG[tPtrRindex] << " ";															
-										fs3 << tPtrB[tPtrRindex] << " ";															
-									}
+										pDblA[tPtrRindex] =  (double)tPtrR[tPtrRindex] ;																					
+										pDblB[tPtrRindex] =  (double)tPtrG[tPtrRindex] ;																					
+										pDblC[tPtrRindex] =  (double)tPtrB[tPtrRindex] ;																					
+							
 								}//end for 
+
+								fs1.write((char*)pDblA, srcCols*sizeof(double));
+								fs2.write((char*)pDblB, srcCols*sizeof(double));
+								fs3.write((char*)pDblC, srcCols*sizeof(double));
 
 							}//end if(rw_settings == 0)
 						}// end if(stage_settings == 6) 
@@ -4149,12 +4175,20 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 			if(last_stage == 6){
 				// hakki commented out edited
 				// This part reads Stage6 image from file. 
-				if(rw_settings == 1){
+				if(rw_settings == 1){					
 
+					double* pDblA = (double*)malloc(srcCols * sizeof(double));
+					double* pDblB = (double*)malloc(srcCols * sizeof(double));
+					double* pDblC = (double*)malloc(srcCols * sizeof(double));
+					fs1.read((char*)pDblA, srcCols*sizeof(double));
+					fs2.read((char*)pDblB, srcCols*sizeof(double));
+					fs3.read((char*)pDblC, srcCols*sizeof(double));
+								
 					for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-						fs1 >> tPtrR[tPtrRindex];																					
-						fs2 >> tPtrG[tPtrRindex] ;																					
-						fs3 >> tPtrB[tPtrRindex] ;																					
+
+						tPtrR[tPtrRindex] = (real32)pDblA[tPtrRindex];																					
+						tPtrG[tPtrRindex] = (real32)pDblB[tPtrRindex];																					
+						tPtrB[tPtrRindex] = (real32)pDblC[tPtrRindex];																					
 					}//end for 
 
 				}//end if(rw_settings == 1)
@@ -4179,17 +4213,20 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 				// hakki commented out edited
 				// This part writes Stage7 image to file. 
 				if(rw_settings == 0){
+					double* pDblA = (double*)malloc(srcCols * sizeof(double));
+					double* pDblB = (double*)malloc(srcCols * sizeof(double));
+					double* pDblC = (double*)malloc(srcCols * sizeof(double));
+
 					for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-						if(tPtrRindex == srcCols-1 ){
-							fs1 << tPtrR[tPtrRindex] << "\n";																					
-							fs2 << tPtrG[tPtrRindex] << "\n";																					
-							fs3 << tPtrB[tPtrRindex] << "\n";																					
-						}else{
-							fs1 << tPtrR[tPtrRindex] << " ";															
-							fs2 << tPtrG[tPtrRindex] << " ";															
-							fs3 << tPtrB[tPtrRindex] << " ";															
-						}
+							pDblA[tPtrRindex] =  (double)tPtrR[tPtrRindex] ;																					
+							pDblB[tPtrRindex] =  (double)tPtrG[tPtrRindex] ;																					
+							pDblC[tPtrRindex] =  (double)tPtrB[tPtrRindex] ;																					
+							
 					}//end for 
+
+					fs1.write((char*)pDblA, srcCols*sizeof(double));
+					fs2.write((char*)pDblB, srcCols*sizeof(double));
+					fs3.write((char*)pDblC, srcCols*sizeof(double));
 
 				}//end if(rw_settings == 0)
 			}// end if(stage_settings == 7) 
@@ -4203,11 +4240,19 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 				// hakki commented out edited
 				// This part reads Stage7 image from file. 
 				if(rw_settings == 1){
-
+ 
+					double* pDblA = (double*)malloc(srcCols * sizeof(double));
+					double* pDblB = (double*)malloc(srcCols * sizeof(double));
+					double* pDblC = (double*)malloc(srcCols * sizeof(double));
+					fs1.read((char*)pDblA, srcCols*sizeof(double));
+					fs2.read((char*)pDblB, srcCols*sizeof(double));
+					fs3.read((char*)pDblC, srcCols*sizeof(double));
+								
 					for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-						fs1 >> tPtrR[tPtrRindex];																					
-						fs2 >> tPtrG[tPtrRindex] ;																					
-						fs3 >> tPtrB[tPtrRindex] ;																					
+
+						tPtrR[tPtrRindex] = (real32)pDblA[tPtrRindex];																					
+						tPtrG[tPtrRindex] = (real32)pDblB[tPtrRindex];																					
+						tPtrB[tPtrRindex] = (real32)pDblC[tPtrRindex];																					
 					}//end for 
 
 				}//end if(rw_settings == 1)
@@ -4232,17 +4277,20 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 					// hakki commented out edited
 					// This part writes Stage8 image to file. 
 					if(rw_settings == 0){
+						double* pDblA = (double*)malloc(srcCols * sizeof(double));
+						double* pDblB = (double*)malloc(srcCols * sizeof(double));
+						double* pDblC = (double*)malloc(srcCols * sizeof(double));
+
 						for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-							if(tPtrRindex == srcCols-1 ){
-								fs1 << tPtrR[tPtrRindex] << "\n";																					
-								fs2 << tPtrG[tPtrRindex] << "\n";																					
-								fs3 << tPtrB[tPtrRindex] << "\n";																					
-							}else{
-								fs1 << tPtrR[tPtrRindex] << " ";															
-								fs2 << tPtrG[tPtrRindex] << " ";															
-								fs3 << tPtrB[tPtrRindex] << " ";															
-							}
+								pDblA[tPtrRindex] =  (double)tPtrR[tPtrRindex] ;																					
+								pDblB[tPtrRindex] =  (double)tPtrG[tPtrRindex] ;																					
+								pDblC[tPtrRindex] =  (double)tPtrB[tPtrRindex] ;																					
+							
 						}//end for 
+
+						fs1.write((char*)pDblA, srcCols*sizeof(double));
+						fs2.write((char*)pDblB, srcCols*sizeof(double));
+						fs3.write((char*)pDblC, srcCols*sizeof(double));
 
 					}//end if(rw_settings == 0)
 				}// end if(stage_settings == 8)
@@ -4259,10 +4307,18 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 				// This part reads Stage8 image from file. 
 				if(rw_settings == 1){
 
+					double* pDblA = (double*)malloc(srcCols * sizeof(double));
+					double* pDblB = (double*)malloc(srcCols * sizeof(double));
+					double* pDblC = (double*)malloc(srcCols * sizeof(double));
+					fs1.read((char*)pDblA, srcCols*sizeof(double));
+					fs2.read((char*)pDblB, srcCols*sizeof(double));
+					fs3.read((char*)pDblC, srcCols*sizeof(double));
+								
 					for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-						fs1 >> tPtrR[tPtrRindex];																					
-						fs2 >> tPtrG[tPtrRindex] ;																					
-						fs3 >> tPtrB[tPtrRindex] ;																					
+
+						tPtrR[tPtrRindex] = (real32)pDblA[tPtrRindex];																					
+						tPtrG[tPtrRindex] = (real32)pDblB[tPtrRindex];																					
+						tPtrB[tPtrRindex] = (real32)pDblC[tPtrRindex];																					
 					}//end for 
 
 				}//end if(rw_settings == 1)
@@ -4281,17 +4337,20 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 				// hakki commented out edited
 				// This part writes Stage9 image to file. 
 				if(rw_settings == 0){
+					double* pDblA = (double*)malloc(srcCols * sizeof(double));
+					double* pDblB = (double*)malloc(srcCols * sizeof(double));
+					double* pDblC = (double*)malloc(srcCols * sizeof(double));
+
 					for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-						if(tPtrRindex == srcCols-1 ){
-							fs1 << tPtrR[tPtrRindex] << "\n";																					
-							fs2 << tPtrG[tPtrRindex] << "\n";																					
-							fs3 << tPtrB[tPtrRindex] << "\n";																					
-						}else{
-							fs1 << tPtrR[tPtrRindex] << " ";															
-							fs2 << tPtrG[tPtrRindex] << " ";															
-							fs3 << tPtrB[tPtrRindex] << " ";															
-						}
+							pDblA[tPtrRindex] =  (double)tPtrR[tPtrRindex] ;																					
+							pDblB[tPtrRindex] =  (double)tPtrG[tPtrRindex] ;																					
+							pDblC[tPtrRindex] =  (double)tPtrB[tPtrRindex] ;																					
+							
 					}//end for 
+
+					fs1.write((char*)pDblA, srcCols*sizeof(double));
+					fs2.write((char*)pDblB, srcCols*sizeof(double));
+					fs3.write((char*)pDblC, srcCols*sizeof(double));
 
 				}//end if(rw_settings == 0)
 			}//end if(stage_settings == 9)
@@ -4336,10 +4395,18 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 						// This part reads Stage9 image from file. 
 						if(rw_settings == 1){
 
+							double* pDblA = (double*)malloc(srcCols * sizeof(double));
+							double* pDblB = (double*)malloc(srcCols * sizeof(double));
+							double* pDblC = (double*)malloc(srcCols * sizeof(double));
+							fs1.read((char*)pDblA, srcCols*sizeof(double));
+							fs2.read((char*)pDblB, srcCols*sizeof(double));
+							fs3.read((char*)pDblC, srcCols*sizeof(double));
+								
 							for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-								fs1 >> dPtrR[tPtrRindex];																					
-								fs2 >> dPtrG[tPtrRindex] ;																					
-								fs3 >> dPtrB[tPtrRindex] ;																					
+
+								dPtrR[tPtrRindex] = (real32)pDblA[tPtrRindex];																					
+								dPtrG[tPtrRindex] = (real32)pDblB[tPtrRindex];																					
+								dPtrB[tPtrRindex] = (real32)pDblC[tPtrRindex];																					
 							}//end for 
 
 						}//end if(rw_settings == 1)
@@ -4361,17 +4428,21 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 						// hakki commented out edited
 						// This part writes Stage10 image to file. 
 						if(rw_settings == 0){
+
+							double* pDblA = (double*)malloc(srcCols * sizeof(double));
+							double* pDblB = (double*)malloc(srcCols * sizeof(double));
+							double* pDblC = (double*)malloc(srcCols * sizeof(double));
+
 							for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-								if(tPtrRindex == srcCols-1 ){
-									fs1 << dPtrR[tPtrRindex] << "\n";																					
-									fs2 << dPtrG[tPtrRindex] << "\n";																					
-									fs3 << dPtrB[tPtrRindex] << "\n";																					
-								}else{
-									fs1 << dPtrR[tPtrRindex] << " ";															
-									fs2 << dPtrG[tPtrRindex] << " ";															
-									fs3 << dPtrB[tPtrRindex] << " ";															
-								}
+									pDblA[tPtrRindex] =  (double)dPtrR[tPtrRindex] ;																					
+									pDblB[tPtrRindex] =  (double)dPtrG[tPtrRindex] ;																					
+									pDblC[tPtrRindex] =  (double)dPtrB[tPtrRindex] ;																					
+							
 							}//end for 
+
+							fs1.write((char*)pDblA, srcCols*sizeof(double));
+							fs2.write((char*)pDblB, srcCols*sizeof(double));
+							fs3.write((char*)pDblC, srcCols*sizeof(double));
 
 						}//end if(rw_settings == 0)
 					}//end if(stage_settings == 10)
@@ -4383,10 +4454,18 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 							// This part reads Stage10 image from file. 
 							if(rw_settings == 1){
 
+								double* pDblA = (double*)malloc(srcCols * sizeof(double));
+								double* pDblB = (double*)malloc(srcCols * sizeof(double));
+								double* pDblC = (double*)malloc(srcCols * sizeof(double));
+								fs1.read((char*)pDblA, srcCols*sizeof(double));
+								fs2.read((char*)pDblB, srcCols*sizeof(double));
+								fs3.read((char*)pDblC, srcCols*sizeof(double));
+								
 								for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-									fs1 >> dPtrR[tPtrRindex];																					
-									fs2 >> dPtrG[tPtrRindex] ;																					
-									fs3 >> dPtrB[tPtrRindex] ;																					
+
+									dPtrR[tPtrRindex] = (real32)pDblA[tPtrRindex];																					
+									dPtrG[tPtrRindex] = (real32)pDblB[tPtrRindex];																					
+									dPtrB[tPtrRindex] = (real32)pDblC[tPtrRindex];																					
 								}//end for 
 
 							}//end if(rw_settings == 1)
@@ -4411,18 +4490,20 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 							// hakki commented out edited
 							// This part writes Stage11 image to file. 
 							if(rw_settings == 0){
+								double* pDblA = (double*)malloc(srcCols * sizeof(double));
+								double* pDblB = (double*)malloc(srcCols * sizeof(double));
+								double* pDblC = (double*)malloc(srcCols * sizeof(double));
+
 								for(int tPtrRindex = 0; tPtrRindex<srcCols;++tPtrRindex){
-									if(tPtrRindex == srcCols-1 ){
-										fs1 << dPtrR[tPtrRindex] << "\n";																					
-										fs2 << dPtrG[tPtrRindex] << "\n";																					
-										fs3 << dPtrB[tPtrRindex] << "\n";																					
-									}else{
-										fs1 << dPtrR[tPtrRindex] << " ";															
-										fs2 << dPtrG[tPtrRindex] << " ";															
-										fs3 << dPtrB[tPtrRindex] << " ";															
-									}
+										pDblA[tPtrRindex] =  (double)dPtrR[tPtrRindex] ;																					
+										pDblB[tPtrRindex] =  (double)dPtrG[tPtrRindex] ;																					
+										pDblC[tPtrRindex] =  (double)dPtrB[tPtrRindex] ;																					
+							
 								}//end for 
 
+								fs1.write((char*)pDblA, srcCols*sizeof(double));
+								fs2.write((char*)pDblB, srcCols*sizeof(double));
+								fs3.write((char*)pDblC, srcCols*sizeof(double));
 							}//end if(rw_settings == 0)
 						}// end if(stage_settings == 11)
 					
