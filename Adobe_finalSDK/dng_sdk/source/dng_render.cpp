@@ -3931,6 +3931,8 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 	//stage_settings = real32(value);
 	//stageSettingsFile.close();
 
+	int cam_printed = 0; 
+
 	for (int32 srcRow = srcArea.t; srcRow < srcArea.b; srcRow++)
 		{
 		
@@ -3938,7 +3940,7 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 		// applying the white balance and camera profile.
 		
 			{
-		
+			
 			const real32 *sPtrA = (const real32 *)
 								  srcBuffer.ConstPixel (srcRow,
 													    srcArea.l,
@@ -3961,6 +3963,27 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 				
 				const real32 *sPtrB = sPtrA + srcBuffer.fPlaneStep;
 				const real32 *sPtrC = sPtrB + srcBuffer.fPlaneStep;
+
+				if(cam_printed == 0 ){
+					cam_printed = 1;
+					printf ("    fCameraWhite = \n");
+					int line_indices;
+					for (int line_indices=0; line_indices<3; line_indices++)
+					{
+						printf("%.4f     ", fCameraWhite[line_indices]);
+					}
+					printf("\n");
+
+					printf ("    fCameraToRGB = \n");
+					int row_indices, columns_indices;
+					for (int row_indices=0; row_indices<3; row_indices++)
+					{
+						for(int columns_indices=0; columns_indices<3; columns_indices++)
+								printf("%.4f     ", fCameraToRGB[row_indices][columns_indices]);
+						printf("\n");
+					}
+					printf("\n");
+				}
 
 				if(stage_settings == 4){
 					// hakki commented out edited

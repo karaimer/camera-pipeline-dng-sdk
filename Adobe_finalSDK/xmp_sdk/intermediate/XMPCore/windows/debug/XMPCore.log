@@ -1,18 +1,18 @@
-﻿Build started 26/09/2016 8:28:07 PM.
-     1>Project "C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\build\vc\XMPCore.vcxproj" on node 2 (build target(s)).
+﻿Build started 28/10/2016 12:18:04 PM.
+     1>Project "C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\build\vc\XMPCore.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "..\..\intermediate\XMPCore\windows\debug\XMPCore.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPCore.lib) does not match the Library's OutputFile property value (C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\public\libraries\windows\debug\XMPCoreStatic.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPCore.lib) does not match the Library's OutputFile property value (C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\public\libraries\windows\debug\XMPCoreStatic.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(XMPCore) does not match the Library's OutputFile property value (XMPCoreStatic). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
        Lib:
          All outputs are up-to-date.
-         XMPCore.vcxproj -> C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPCore.lib
+         XMPCore.vcxproj -> C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPCore.lib
        FinalizeBuildStatus:
          Deleting file "..\..\intermediate\XMPCore\windows\debug\XMPCore.unsuccessfulbuild".
          Touching "..\..\intermediate\XMPCore\windows\debug\XMPCore.lastbuildstate".
-     1>Done Building Project "C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\build\vc\XMPCore.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\build\vc\XMPCore.vcxproj" (build target(s)).
 
 Build succeeded.
 

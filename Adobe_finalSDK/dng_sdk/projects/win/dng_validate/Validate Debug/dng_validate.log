@@ -1,159 +1,21 @@
-﻿Build started 26/09/2016 8:28:07 PM.
-     1>Project "C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\dng_sdk\projects\win\dng_validate\dng_validate.vcxproj" on node 3 (build target(s)).
+﻿Build started 28/10/2016 12:18:04 PM.
+     1>Project "C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\dng_sdk\projects\win\dng_validate\dng_validate.vcxproj" on node 3 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Validate Debug\dng_validate.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../libjpeg /I../../../../xmp_sdk/public/include /I"../../../../xmp_sdk/third-party/zlib" /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D WIN32 /D _DEBUG /D _CONSOLE /D qDNGValidateTarget=1 /D qMacOS=0 /D qWinOS=1 /D _SECURE_SCL=1 /D "_HAS_ITERATOR_DEBUGGING = 1" /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Validate Debug\\" /Fd"Validate Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\source\dng_render.cpp
-         dng_render.cpp
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(3881): warning C4244: '=' : conversion from 'real32' to 'int', possible loss of data
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(3891): warning C4244: '=' : conversion from 'real32' to 'int', possible loss of data
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(3897): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\direct.h(124) : see declaration of 'mkdir'
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(3905): warning C4244: '=' : conversion from 'real32' to 'int', possible loss of data
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(3973): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4002): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4088): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4119): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4152): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4187): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4220): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4251): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4284): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4317): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4344): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4405): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4436): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4464): warning C4018: '<' : signed/unsigned mismatch
-     1>c:\users\hakki\downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\adobe_finalsdk\dng_sdk\source\dng_render.cpp(4497): warning C4018: '<' : signed/unsigned mismatch
+         All outputs are up-to-date.
        ManifestResourceCompile:
          All outputs are up-to-date.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\targets\win\debug\dng_validate.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Validate Debug\dng_validate.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\..\..\targets\win\debug\dng_validate.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\..\targets\win\debug\dng_validate.lib" /MACHINE:X86 "Validate Debug\dng_validate.exe.embed.manifest.res"
-         "Validate Debug\jaricom.obj"
-         "Validate Debug\jcapimin.obj"
-         "Validate Debug\jcapistd.obj"
-         "Validate Debug\jcarith.obj"
-         "Validate Debug\jccoefct.obj"
-         "Validate Debug\jccolor.obj"
-         "Validate Debug\jcdctmgr.obj"
-         "Validate Debug\jchuff.obj"
-         "Validate Debug\jcinit.obj"
-         "Validate Debug\jcmainct.obj"
-         "Validate Debug\jcmarker.obj"
-         "Validate Debug\jcmaster.obj"
-         "Validate Debug\jcomapi.obj"
-         "Validate Debug\jcparam.obj"
-         "Validate Debug\jcprepct.obj"
-         "Validate Debug\jcsample.obj"
-         "Validate Debug\jctrans.obj"
-         "Validate Debug\jdapimin.obj"
-         "Validate Debug\jdapistd.obj"
-         "Validate Debug\jdarith.obj"
-         "Validate Debug\jdatadst.obj"
-         "Validate Debug\jdatasrc.obj"
-         "Validate Debug\jdcoefct.obj"
-         "Validate Debug\jdcolor.obj"
-         "Validate Debug\jddctmgr.obj"
-         "Validate Debug\jdhuff.obj"
-         "Validate Debug\jdinput.obj"
-         "Validate Debug\jdmainct.obj"
-         "Validate Debug\jdmarker.obj"
-         "Validate Debug\jdmaster.obj"
-         "Validate Debug\jdmerge.obj"
-         "Validate Debug\jdpostct.obj"
-         "Validate Debug\jdsample.obj"
-         "Validate Debug\jdtrans.obj"
-         "Validate Debug\jerror.obj"
-         "Validate Debug\jfdctflt.obj"
-         "Validate Debug\jfdctfst.obj"
-         "Validate Debug\jfdctint.obj"
-         "Validate Debug\jidctflt.obj"
-         "Validate Debug\jidctfst.obj"
-         "Validate Debug\jidctint.obj"
-         "Validate Debug\jmemmgr.obj"
-         "Validate Debug\jmemnobs.obj"
-         "Validate Debug\jquant1.obj"
-         "Validate Debug\jquant2.obj"
-         "Validate Debug\jutils.obj"
-         "Validate Debug\dng_1d_function.obj"
-         "Validate Debug\dng_1d_table.obj"
-         "Validate Debug\dng_abort_sniffer.obj"
-         "Validate Debug\dng_area_task.obj"
-         "Validate Debug\dng_bad_pixels.obj"
-         "Validate Debug\dng_bottlenecks.obj"
-         "Validate Debug\dng_camera_profile.obj"
-         "Validate Debug\dng_color_space.obj"
-         "Validate Debug\dng_color_spec.obj"
-         "Validate Debug\dng_date_time.obj"
-         "Validate Debug\dng_exceptions.obj"
-         "Validate Debug\dng_exif.obj"
-         "Validate Debug\dng_file_stream.obj"
-         "Validate Debug\dng_filter_task.obj"
-         "Validate Debug\dng_fingerprint.obj"
-         "Validate Debug\dng_gain_map.obj"
-         "Validate Debug\dng_globals.obj"
-         "Validate Debug\dng_host.obj"
-         "Validate Debug\dng_hue_sat_map.obj"
-         "Validate Debug\dng_ifd.obj"
-         "Validate Debug\dng_image.obj"
-         "Validate Debug\dng_image_writer.obj"
-         "Validate Debug\dng_info.obj"
-         "Validate Debug\dng_iptc.obj"
-         "Validate Debug\dng_jpeg_image.obj"
-         "Validate Debug\dng_lens_correction.obj"
-         "Validate Debug\dng_linearization_info.obj"
-         "Validate Debug\dng_lossless_jpeg.obj"
-         "Validate Debug\dng_matrix.obj"
-         "Validate Debug\dng_memory.obj"
-         "Validate Debug\dng_memory_stream.obj"
-         "Validate Debug\dng_misc_opcodes.obj"
-         "Validate Debug\dng_mosaic_info.obj"
-         "Validate Debug\dng_mutex.obj"
-         "Validate Debug\dng_negative.obj"
-         "Validate Debug\dng_opcodes.obj"
-         "Validate Debug\dng_opcode_list.obj"
-         "Validate Debug\dng_orientation.obj"
-         "Validate Debug\dng_parse_utils.obj"
-         "Validate Debug\dng_pixel_buffer.obj"
-         "Validate Debug\dng_point.obj"
-         "Validate Debug\dng_preview.obj"
-         "Validate Debug\dng_pthread.obj"
-         "Validate Debug\dng_rational.obj"
-         "Validate Debug\dng_read_image.obj"
-         "Validate Debug\dng_rect.obj"
-         "Validate Debug\dng_reference.obj"
-         "Validate Debug\dng_ref_counted_block.obj"
-         "Validate Debug\dng_render.obj"
-         "Validate Debug\dng_resample.obj"
-         "Validate Debug\dng_shared.obj"
-         "Validate Debug\dng_simple_image.obj"
-         "Validate Debug\dng_spline.obj"
-         "Validate Debug\dng_stream.obj"
-         "Validate Debug\dng_string.obj"
-         "Validate Debug\dng_string_list.obj"
-         "Validate Debug\dng_tag_types.obj"
-         "Validate Debug\dng_temperature.obj"
-         "Validate Debug\dng_tile_iterator.obj"
-         "Validate Debug\dng_tone_curve.obj"
-         "Validate Debug\dng_utils.obj"
-         "Validate Debug\dng_validate.obj"
-         "Validate Debug\dng_xmp.obj"
-         "Validate Debug\dng_xmp_sdk.obj"
-         "Validate Debug\dng_xy_coord.obj"
-         "C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\public\libraries\windows\debug\XMPCoreStatic.lib"
-         "C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\xmp_sdk\public\libraries\windows\debug\XMPFilesStatic.lib"
+         All outputs are up-to-date.
        Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Validate Debug\dng_validate.exe.embed.manifest" /manifest "Validate Debug\dng_validate.exe.intermediate.manifest"
          All outputs are up-to-date.
-       LinkEmbedManifest:
-         All outputs are up-to-date.
-         dng_validate.vcxproj -> C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\dng_sdk\projects\win\dng_validate\..\..\..\targets\win\debug\dng_validate.exe
        FinalizeBuildStatus:
          Deleting file "Validate Debug\dng_validate.unsuccessfulbuild".
          Touching "Validate Debug\dng_validate.lastbuildstate".
-     1>Done Building Project "C:\Users\hakki\Downloads\camera-pipeline-dng-sdk-master\camera-pipeline-dng-sdk-master\Adobe_finalSDK\dng_sdk\projects\win\dng_validate\dng_validate.vcxproj" (build target(s)).
+     1>Done Building Project "C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\dng_sdk\projects\win\dng_validate\dng_validate.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.33
+Time Elapsed 00:00:00.17
