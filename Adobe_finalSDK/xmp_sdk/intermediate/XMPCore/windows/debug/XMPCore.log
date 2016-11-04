@@ -1,4 +1,4 @@
-﻿Build started 28/10/2016 12:18:04 PM.
+﻿Build started 03/11/2016 10:12:33 PM.
      1>Project "C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\build\vc\XMPCore.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "..\..\intermediate\XMPCore\windows\debug\XMPCore.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -16,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.03
+Time Elapsed 00:00:00.04

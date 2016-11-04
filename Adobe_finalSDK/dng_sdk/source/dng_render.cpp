@@ -3931,6 +3931,49 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 	//stage_settings = real32(value);
 	//stageSettingsFile.close();
 
+				int cam_settings = 0 ;
+
+					std::fstream cam_settingsfile(".\\cam_settings.txt", std::ios_base::in);
+
+					real32 cam_settingsvalue;
+					cam_settingsfile >> cam_settingsvalue;					
+					cam_settings = real32(cam_settingsvalue);
+
+					if(cam_settings == 1) {
+						std::fstream myfile(".\\CAM.txt", std::ios_base::in);
+						real32 value1;
+						real32 value2;
+						real32 value3;
+						real32 value4;
+						real32 value5;
+						real32 value6;
+						real32 value7;
+						real32 value8;
+						real32 value9;
+
+						myfile >> value1;
+						myfile >> value2;
+						myfile >> value3;
+						myfile >> value4;
+						myfile >> value5;
+						myfile >> value6;
+						myfile >> value7;
+						myfile >> value8;
+						myfile >> value9;
+
+						fCameraToRGB[0][0] = value1;
+						fCameraToRGB[0][1] = value2;
+						fCameraToRGB[0][2] = value3;
+						fCameraToRGB[1][0] = value4;
+						fCameraToRGB[1][1] = value5;
+						fCameraToRGB[1][2] = value6;
+						fCameraToRGB[2][0] = value7;
+						fCameraToRGB[2][1] = value8;
+						fCameraToRGB[2][2] = value9;
+						myfile.close();
+				}
+					cam_settingsfile.close();
+
 	int cam_printed = 0; 
 
 	for (int32 srcRow = srcArea.t; srcRow < srcArea.b; srcRow++)
@@ -3963,6 +4006,7 @@ void dng_render_task::ProcessArea (uint32 threadIndex,
 				
 				const real32 *sPtrB = sPtrA + srcBuffer.fPlaneStep;
 				const real32 *sPtrC = sPtrB + srcBuffer.fPlaneStep;
+
 
 				if(cam_printed == 0 ){
 					cam_printed = 1;
