@@ -2876,7 +2876,6 @@ void dng_shared::PostParse (dng_host & /* host */,
 			}
 
 		// Check UniqueCameraModel.
-		
 		if (fUniqueCameraModel.IsEmpty ())
 			{
 			
@@ -2889,7 +2888,23 @@ void dng_shared::PostParse (dng_host & /* host */,
 			fUniqueCameraModel.Set ("Digital Negative");
 			
 			}
-		
+		//Hakki edited since samsung s6 has a \n at the end of camera model, this cause problem in xrite.
+		dng_string samsung_s6_edge;
+		samsung_s6_edge.Set("A16LSIA00VM A16LSIL02SM\n");
+		if (fUniqueCameraModel == samsung_s6_edge )
+			{
+			
+			#if qDNGValidate
+			
+			ReportWarning ("Missing or invalid UniqueCameraModel");
+						 
+			#endif
+			
+			fUniqueCameraModel.Set ("SAMSUNG_S6_EDGE");
+			
+			}
+
+
 		// If we don't know the color depth yet, it must be a monochrome DNG.
 		
 		if (fCameraProfile.fColorPlanes == 0)
