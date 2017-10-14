@@ -2891,7 +2891,10 @@ void dng_shared::PostParse (dng_host & /* host */,
 		//Hakki edited since samsung s6 has a \n at the end of camera model, this cause problem in xrite.
 		dng_string samsung_s6_edge;
 		samsung_s6_edge.Set("A16LSIA00VM A16LSIL02SM\n");
-		if (fUniqueCameraModel == samsung_s6_edge )
+
+		dng_string samsung_s6;
+		samsung_s6.Set("A16LLIC08VM A16LLJL02GM\n");
+		if (fUniqueCameraModel == samsung_s6_edge || fUniqueCameraModel == samsung_s6)
 			{
 			
 			#if qDNGValidate
@@ -2900,7 +2903,7 @@ void dng_shared::PostParse (dng_host & /* host */,
 						 
 			#endif
 			
-			fUniqueCameraModel.Set ("SAMSUNG_S6_EDGE");
+			fUniqueCameraModel.Set ("SAMSUNG_S6");
 			
 			}
 

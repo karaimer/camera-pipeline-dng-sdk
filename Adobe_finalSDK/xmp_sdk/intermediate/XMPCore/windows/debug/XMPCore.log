@@ -1,57 +1,13 @@
-﻿Build started 02/12/2016 2:41:27 PM.
+﻿Build started 10/14/17 2:42:17 PM.
      1>Project "C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\build\vc\XMPCore.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "..\..\intermediate\XMPCore\windows\debug\XMPCore.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\ /I..\..\ /I..\..\public\include\ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32=1 /D _WINDOWS=1 /D WIN_ENV=1 /D HAVE_EXPAT_CONFIG_H=1 /D XML_STATIC=1 /D DEBUG=1 /D XMP_StaticBuild=1 /D _DEBUG=1 /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\..\intermediate\windows\debug\\" /Fd"..\..\intermediate\XMPCore\windows\debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\XMPCore\source\ExpatAdapter.cpp ..\..\XMPCore\source\ParseRDF.cpp ..\..\XMPCore\source\WXMPIterator.cpp ..\..\XMPCore\source\WXMPMeta.cpp ..\..\XMPCore\source\WXMPUtils.cpp ..\..\XMPCore\source\XMPCore_Impl.cpp ..\..\XMPCore\source\XMPIterator.cpp "..\..\XMPCore\source\XMPMeta-GetSet.cpp" "..\..\XMPCore\source\XMPMeta-Parse.cpp" "..\..\XMPCore\source\XMPMeta-Serialize.cpp" ..\..\XMPCore\source\XMPMeta.cpp "..\..\XMPCore\source\XMPUtils-FileInfo.cpp" ..\..\XMPCore\source\XMPUtils.cpp ..\..\source\UnicodeConversions.cpp ..\..\source\XML_Node.cpp ..\..\source\XMP_LibUtils.cpp "..\..\third-party\expat\lib\xmlparse.c" "..\..\third-party\expat\lib\xmlrole.c" "..\..\third-party\expat\lib\xmltok.c" "..\..\third-party\zuid\interfaces\MD5.cpp"  /J
-         ExpatAdapter.cpp
-         ParseRDF.cpp
-         WXMPIterator.cpp
-         WXMPMeta.cpp
-         WXMPUtils.cpp
-         XMPCore_Impl.cpp
-         XMPIterator.cpp
-         XMPMeta-GetSet.cpp
-         XMPMeta-Parse.cpp
-         XMPMeta-Serialize.cpp
-         XMPMeta.cpp
-         XMPUtils-FileInfo.cpp
-         XMPUtils.cpp
-         UnicodeConversions.cpp
-         XML_Node.cpp
-         XMP_LibUtils.cpp
-     1>..\..\source\XMP_LibUtils.cpp(382): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
-     1>..\..\source\XMP_LibUtils.cpp(465): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : see declaration of '_snprintf'
-         xmlparse.c
-         xmlrole.c
-         xmltok.c
-         MD5.cpp
-         Generating Code...
+         All outputs are up-to-date.
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPCore.lib) does not match the Library's OutputFile property value (C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\public\libraries\windows\debug\XMPCoreStatic.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(XMPCore) does not match the Library's OutputFile property value (XMPCoreStatic). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\public\libraries\windows\debug\XMPCoreStatic.lib" /NOLOGO ..\..\intermediate\windows\debug\UnicodeConversions.obj
-         ..\..\intermediate\windows\debug\XML_Node.obj
-         ..\..\intermediate\windows\debug\XMP_LibUtils.obj
-         ..\..\intermediate\windows\debug\xmlparse.obj
-         ..\..\intermediate\windows\debug\xmlrole.obj
-         ..\..\intermediate\windows\debug\xmltok.obj
-         ..\..\intermediate\windows\debug\MD5.obj
-         ..\..\intermediate\windows\debug\ExpatAdapter.obj
-         ..\..\intermediate\windows\debug\ParseRDF.obj
-         ..\..\intermediate\windows\debug\WXMPIterator.obj
-         ..\..\intermediate\windows\debug\WXMPMeta.obj
-         ..\..\intermediate\windows\debug\WXMPUtils.obj
-         ..\..\intermediate\windows\debug\XMPCore_Impl.obj
-         ..\..\intermediate\windows\debug\XMPIterator.obj
-         "..\..\intermediate\windows\debug\XMPMeta-GetSet.obj"
-         "..\..\intermediate\windows\debug\XMPMeta-Parse.obj"
-         "..\..\intermediate\windows\debug\XMPMeta-Serialize.obj"
-         ..\..\intermediate\windows\debug\XMPMeta.obj
-         "..\..\intermediate\windows\debug\XMPUtils-FileInfo.obj"
-         ..\..\intermediate\windows\debug\XMPUtils.obj
+         All outputs are up-to-date.
          XMPCore.vcxproj -> C:\Users\hakki\Documents\GitHub\camera-pipeline-dng-sdk\Adobe_finalSDK\xmp_sdk\build\vc\..\..\public\libraries\windows\debug\XMPCore.lib
        FinalizeBuildStatus:
          Deleting file "..\..\intermediate\XMPCore\windows\debug\XMPCore.unsuccessfulbuild".
@@ -60,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:11.24
+Time Elapsed 00:00:00.05
